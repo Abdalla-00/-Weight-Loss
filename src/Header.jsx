@@ -18,7 +18,7 @@ const Header = () => {
             <li className="font-bold">SignIn</li>
           </ul>
 
-          <button onClick={()=>seHidden(!hidden)}>
+          <button className="md:hidden " onClick={()=>seHidden(!hidden)}>
             <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
