@@ -6,19 +6,19 @@ const Header = () => {
   const [hidden,seHidden]=useState(false)
   return (
     <>
-      <div className="bg-[#d8efe2] max-w-5xl mx-auto py-5 mt-5 rounded-full">
+      <div className="bg-[#d8efe2] max-w-5xl mx-auto py-5 mt-5 rounded-full px-5 md:px-0 lg:px-0">
         <nav className="flex justify-between items-center max-w-4xl mx-auto p-4 ">
           <img className="h-12" src={logo} alt="" />
 
-          <ul className="hidden md:flex gap-4 cursor-pointer text-black">
-            <li>Weight Loss </li>
-            <li>Nutrition & Diet</li>
-            <li>Recipes & Cooking</li>
-            <li> Lifestyle & Mindset</li>
-            <li className="font-bold">SignIn</li>
+          <ul className="hidden lg:flex gap-4 cursor-pointer text-black ">
+            <li className="hover:text-[#FAA432] font-bold">Weight Loss </li>
+            <li className="hover:text-[#FAA432] font-bold">Nutrition & Diet</li>
+            <li className="hover:text-[#FAA432] font-bold">Recipes & Cooking</li>
+            <li className="hover:text-[#FAA432] font-bold"> Lifestyle & Mindset</li>
+            <li className="font-bold hover:text-[#FAA432]">SignIn</li>
           </ul>
 
-          <button className="md:hidden " onClick={()=>seHidden(!hidden)}>
+          <button className="lg:hidden " onClick={()=>seHidden(!hidden)}>
             <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

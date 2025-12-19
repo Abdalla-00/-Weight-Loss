@@ -1,16 +1,21 @@
-import React from 'react'
-import Heros from "../assets/image/WeightLoss/Heros.jpg"
+import React from "react";
+import Heros from "../assets/image/WeightLoss/Heros.jpg";
 
 const Hero = () => {
   return (
-    <div className='flex flex-col justify-center items-center mt-10'>
-        <h1 className='text-4xl font-bold'>Nutrition tracking</h1>
-        <h3 className='text-4xl font-bold mt-3'>for <span className='bg-[#FAA432] px-4 py text-white'>real life</span></h3>
-       
-            <img className=' md:h-[70vh] w-full mx-auto object-cover' src={Heros} alt="" />
-        
-    </div>
-  )
-}
+    <div className="flex flex-col justify-center items-center mt-10">
+      <h1 className="text-4xl font-bold">Nutrition tracking</h1>
+      <h3 className="text-4xl font-bold mt-3">
+        for <span className="bg-[#FAA432] px-4 py text-white">real life</span>
+      </h3>
 
-export default Hero
+      <img
+        className=" md:h-[70vh] w-full mx-auto object-cover"
+        src={Heros}
+        alt=""
+      />
+    </div>
+  );
+};
+
+export default Hero;
