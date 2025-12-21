@@ -8,6 +8,7 @@ import Nutrition from "./Pages/Nutrition.jsx";
 import Recipes from "./Pages/Recipes.jsx";
 import Lifestyle from "./Pages/Lifestyle.jsx";
 import SignIn from "./Pages/SignIn.jsx";
+import Home from "./Pages/Home.jsx";
 
 const routerProvider = createBrowserRouter([
   {
@@ -34,6 +35,11 @@ const routerProvider = createBrowserRouter([
         path: "SignIn",
         element: <SignIn />,
       },
+
+      {
+        path: "/",
+        element: <Home/>
+      }
     ],
   },
 ]);
