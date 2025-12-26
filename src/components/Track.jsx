@@ -9,9 +9,9 @@ const Track = () => {
           <div className="w-1/2 ">
             <img className="w-full h-auto object-contain" src={SoTrack} alt="" />
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2 flex flex-col justify-center items-center text-center  ">
             <h1 className="text-[#0D9B4D] md:text-5xl font-bold">Track food, fitness & fasting</h1>
-            <p className="my-7 text-[#716060]">
+            <p className="my-7 text-[#716060] ">
               Tracking calories and macros is simple with Sola Food Tracker. Our
               barcode scanner and device integration make meal tracking
               effortless. Stay on top of your nutrition goals with ease using
