@@ -15,26 +15,26 @@ const Header = () => {
 
           <ul className="hidden lg:flex gap-4 cursor-pointer text-black ">
             <Link to="WeightLoss">
-              <li className="hover:text-[#FAA432] font-bold">Weight Loss </li>
+              <li className="hover:text-[#FAA432] font-bold transition ease-in duration-300">Weight Loss </li>
             </Link>
             <Link to="Nutrition">
-              <li className="hover:text-[#FAA432] font-bold">
+              <li className="hover:text-[#FAA432] font-bold transition ease-in duration-300">
                 Nutrition & Diet
               </li>
             </Link>
             <Link to="Recipes">
-              <li className="hover:text-[#FAA432] font-bold">
+              <li className="hover:text-[#FAA432] font-bold transition ease-in duration-300">
                 Recipes & Cooking
               </li>
             </Link>
             <Link to="Lifestyle">
-              <li className="hover:text-[#FAA432] font-bold">
+              <li className="hover:text-[#FAA432] font-bold transition ease-in duration-300">
                 {" "}
                 Lifestyle & Mindset
               </li>
             </Link>
             <Link to="SignIn">
-              <li className="font-bold hover:text-[#FAA432]">SignIn</li>
+              <li className="font-bold hover:text-[#FAA432] transition ease-in duration-300">SignIn</li>
             </Link>
           </ul>
 
