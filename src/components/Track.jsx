@@ -3,7 +3,7 @@ import SoTrack from "../../public/image/WeightLoss/SomaliTrack.png";
 
 const Track = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center mt-4 md:mt-0 ">
+    <div className="h-[550px] md:min-h-screen  flex justify-center items-center mt-4 md:mt-0 ">
       <div className="bg-[#F4E7E7]  w-full max-w-5xl  mx-auto rounded-2xl py-4 md:py-0 ">
         <div className="flex flex-col md:flex-row justify-center items-center gap-5 ">
           <div className="w-1/2 ">
@@ -17,7 +17,7 @@ const Track = () => {
               effortless. Stay on top of your nutrition goals with ease using
               Sola Food Tracker
             </p>
-            <button className="bg-[#FAA432] py-3 px-8 rounded-4xl  text-white font-bold">Track Now</button>
+            <button className="bg-[#FAA432] py-3 px-8 rounded-4xl  text-white font-bold   hover:bg-[#0D9B4D] cursor-pointer transition ease-in duration-300">Track Now</button>
           </div>
         </div>
       </div>
