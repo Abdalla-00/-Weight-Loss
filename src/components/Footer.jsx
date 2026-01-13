@@ -29,22 +29,32 @@ const Footer = () => {
             <li>Blog</li>
             <li>Press</li>
           </ul>
-        </div>    
+        </div>
         <div className="mt-4 md:mt-0">
           <h2 className="text-xl text-white font-bold">Legal</h2>
           <ul className="flex flex-col gap-2  mt-5">
-            <li className="cursor-pointer hover:text-[#FAA432] transition duration-300 ease-in">Terms of Service</li>
-            <li className="cursor-pointer hover:text-[#FAA432] transition duration-300 ease-in">Privacy Policy</li>
-            <li className="cursor-pointer hover:text-[#FAA432] transition duration-300 ease-in">Cookie Policy</li>
-            <li className="cursor-pointer hover:text-[#FAA432] transition duration-300 ease-in">GDPR</li>
+            <li className="cursor-pointer hover:text-[#FAA432] transition duration-300 ease-in">
+              Terms of Service
+            </li>
+            <li className="cursor-pointer hover:text-[#FAA432] transition duration-300 ease-in">
+              Privacy Policy
+            </li>
+            <li className="cursor-pointer hover:text-[#FAA432] transition duration-300 ease-in">
+              Cookie Policy
+            </li>
+            <li className="cursor-pointer hover:text-[#FAA432] transition duration-300 ease-in">
+              GDPR
+            </li>
           </ul>
         </div>
       </div>
       <div className="bg-gray-800  h-[0.5px] mt-5"></div>
-       
-       <div className=" flex flex-col justify-center items-center mt-5 pb-10 md:pb-0">
-        <p className="text-gray-400">© 2025 NutriTracker. All rights reserved.</p>
-       </div>
+
+      <div className=" flex flex-col justify-center items-center mt-5 pb-10 md:pb-0">
+        <p className="text-gray-400">
+          © 2025 NutriTracker. All rights reserved.
+        </p>
+      </div>
     </div>
   );
 };

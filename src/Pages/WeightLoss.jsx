@@ -1,9 +1,11 @@
 import React from 'react'
+import WeighDescrip from '../components/WeighDescrip'
 
 const WeightLoss = () => {
   return (
-    <div className=' '
-    >WeightLoss</div>
+    <div className=' '>
+        <WeighDescrip/>
+    </div>
   )
 }
 
