@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
       <div className="bg-gray-800  h-[0.5px] mt-5"></div>
 
-      <div className=" flex flex-col justify-center items-center mt-5 pb-10 md:pb-0">
+      <div className=" flex flex-col justify-center items-center mt-5 pb-10 md:pb-0 text-center">
         <p className="text-gray-400">
           &copy; {currentYear} NutriTracker. All rights reserved.
         </p>
