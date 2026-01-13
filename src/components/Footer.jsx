@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../../public/image/logo-2.png";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="bg-[#111827] max-w-7xl mx-auto px-14   ">
       <div className="  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-40 md:text-left text-center text-gray-400 pt-36 ">
@@ -52,7 +54,7 @@ const Footer = () => {
 
       <div className=" flex flex-col justify-center items-center mt-5 pb-10 md:pb-0">
         <p className="text-gray-400">
-          © 2025 NutriTracker. All rights reserved.
+          &copy; {currentYear} NutriTracker. All rights reserved.
         </p>
       </div>
     </div>
