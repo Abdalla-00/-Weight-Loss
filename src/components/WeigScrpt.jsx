@@ -3,7 +3,7 @@ import React from "react";
 import data from "../assets/Map.json";
 
 const WeigScrpt = () => {
-  console.log(data);
+  // console.log(data);
   return (
     <>
       <div className="bg-[#0D9C4D] h-[750px] md:h-[550px] lg:h-96">
