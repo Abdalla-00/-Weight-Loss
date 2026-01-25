@@ -7,7 +7,7 @@ const WeighDescrip = () => {
             <h1 className='text-4xl md:text-5xl font-bold'>Your Weight Loss Journey Starts Here </h1>
             <p className='my-6 '>Discover science-backed strategies, meal plans, and success stories to help you achieve <br /> your weight loss goals in a healthy, sustainable way.</p>
 
-            <button className='bg-white text-[#22C55E] px-4 py-3 rounded-full cursor-pointer'>Start Your Journey</button>
+            <button className='bg-white hover:bg-[#FAA432] text-[#22C55E] hover:text-white   px-4 py-3 rounded-full cursor-pointer transition duration-300 ease-in-out'>Start Your Journey</button>
         </div>
 
     </div>

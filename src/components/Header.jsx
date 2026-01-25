@@ -15,20 +15,20 @@ const Header = () => {
 
           <ul className="hidden lg:flex gap-4 cursor-pointer text-black ">
             <Link to="WeightLoss">
-              <li className="hover:text-[#FAA432] font-bold transition ease-in duration-300">Weight Loss </li>
+              <li className="hover:text-[#FAA432] font-medium transition ease-in duration-300">Weight Loss </li>
             </Link>
             <Link to="Nutrition">
-              <li className="hover:text-[#FAA432] font-bold transition ease-in duration-300">
+              <li className="hover:text-[#FAA432] font-medium transition ease-in duration-300">
                 Nutrition & Diet
               </li>
             </Link>
             <Link to="Recipes">
-              <li className="hover:text-[#FAA432] font-bold transition ease-in duration-300">
+              <li className="hover:text-[#FAA432] font-medium transition ease-in duration-300">
                 Recipes & Cooking
               </li>
             </Link>
             <Link to="Lifestyle">
-              <li className="hover:text-[#FAA432] font-bold transition ease-in duration-300">
+              <li className="hover:text-[#FAA432] font-medium transition ease-in duration-300">
                 {" "}
                 Lifestyle & Mindset
               </li>
@@ -80,7 +80,7 @@ const Header = () => {
             <ul className="flex flex-col gap-4 cursor-pointer text-black ">
               <Link to="WeightLoss">
                 <li
-                  className="hover:text-[#FAA432] font-bold"
+                  className="hover:text-[#FAA432] font-medium"
                   onClick={() => seHidden(false)}
                 >
                   Weight Loss{" "}
@@ -88,7 +88,7 @@ const Header = () => {
               </Link>
               <Link to="Nutrition">
                 <li
-                  className="hover:text-[#FAA432] font-bold"
+                  className="hover:text-[#FAA432] font-medium"
                   onClick={() => seHidden(false)}
                 >
                   Nutrition & Diet
@@ -96,7 +96,7 @@ const Header = () => {
               </Link>
               <Link to="Recipes">
                 <li
-                  className="hover:text-[#FAA432] font-bold"
+                  className="hover:text-[#FAA432] font-medium"
                   onClick={() => seHidden(false)}
                 >
                   Recipes & Cooking
@@ -104,7 +104,7 @@ const Header = () => {
               </Link>
               <Link to="Lifestyle">
                 <li
-                  className="hover:text-[#FAA432] font-bold"
+                  className="hover:text-[#FAA432] font-medium"
                   onClick={() => seHidden(false)}
                 >
                   {" "}
