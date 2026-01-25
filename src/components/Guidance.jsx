@@ -4,7 +4,7 @@ import { weightLossTips } from "../data/weightLossTips";
 
 const Guidance = () => {
   return (
-    <div className="mt-11 h-screen">
+    <div className="mt-11">
       <div className="text-center">
         <h1 className="text-2xl font-bold">Weight Loss Guidance</h1>
         <p className="text-gray-500 mt-2">
@@ -18,10 +18,12 @@ const Guidance = () => {
           // console.log(weightLossTips);
           const Icon = product.Icon
           return (
-            <div  key={index} className="">
-              <Icon/>
-              <div>{product.title}</div>
-              <div>{product.description}</div>
+            <div  key={index} className="bg-gray-100 p-4 rounded-lg">
+              <div className="bg-[#0D9B4D]/20 w-10 h-10 rounded-full flex justify-center items-center">
+                <Icon className=" text-[#0D9B4D]   "/>
+              </div>
+              <div className="font-bold py-2">{product.title}</div>
+              <div className="text-gray-500">{product.description}</div>
             </div>
           );
         })}
