@@ -12,7 +12,7 @@ const WeightLossFoods = () => {
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6  mt-5  ">
+      <div className="max-w-6xl mx-auto px-4 lg:px-0 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6  mt-5  ">
         {supportLoss.map((product, index) => {
           return (
             <div key={index} className="bg-white rounded-sm shadow-sm hover:shadow-2xl transition duration-300 ease-in-out cursor-pointer ">
