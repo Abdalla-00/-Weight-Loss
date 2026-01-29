@@ -2,6 +2,7 @@ import React from 'react'
 import WeighDescrip from '../components/WeighDescrip'
 import Guidance from '../components/Guidance'
 import WeightLossFoods from '../components/WeightLossFoods'
+import Sample from '../components/Sample'
 
 const WeightLoss = () => {
   return (
@@ -9,6 +10,7 @@ const WeightLoss = () => {
         <WeighDescrip/>
         <Guidance/>
         <WeightLossFoods/>
+        <Sample/>
     </div>
   )
 }

@@ -1,6 +1,15 @@
 import React from "react";
 
-import data from "../assets/Map.json";
+import data from "../data/Map.json";
+import icon1 from "../assets/image/WeightLoss/icon1.png"
+import icon2 from "../assets/image/WeightLoss/icon2.png"
+import icon3 from "../assets/image/WeightLoss/icon3.png"
+
+const images ={
+  "icon1.png" : icon1,
+  "icon2.png" : icon2,
+  "icon3.png" : icon3
+}
 
 const WeigScrpt = () => {
   // console.log(data);
@@ -13,10 +22,10 @@ const WeigScrpt = () => {
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {data.map((product) => {
+            {data.map((product,index) => {
               return (
-                <div className="text-white text-center flex flex-col justify-center items-center">
-                  <img className="w-24" src={product.image} alt="" />
+                <div key={index} className="text-white text-center flex flex-col justify-center items-center">
+                  <img className="w-24" src={images[product.image]} alt="" />
                   <h1 className="text-2xl font-bold">{product.title}</h1>
                   <p className="max-w-60">{product.description}</p>
                 </div>

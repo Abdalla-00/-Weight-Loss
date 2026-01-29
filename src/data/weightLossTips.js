@@ -5,6 +5,7 @@ import {
   Leaf,
   Scale,
   Utensils,
+  Circle,
 } from "lucide-react";
 
 import support1 from "../assets/image/Support/Support_1.png";
@@ -75,5 +76,23 @@ export const supportLoss = [
     title: "Healthy Fats",
     description:
       "Avocados, nuts, seeds, and olive oil provide essential fatty acids and help with nutrient absorption.",
+  },
+];
+
+export const sample = [
+  {
+    desc1 : "",
+    desc2 : "",
+    desc3 : ""
+  },
+  {
+    desc1 : "",
+    desc2 : "",
+    desc3 : ""
+  },
+  {
+    desc1 : "",
+    desc2 : "",
+    desc3 : ""
   },
 ];
