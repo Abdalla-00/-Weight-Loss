@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../public/image/logo.png";
+import logo from "../assets/image/Logo/logo.png";
 import { Link } from "react-router-dom";
 import WeightLoss from "../Pages/WeightLoss";
 
@@ -15,7 +15,9 @@ const Header = () => {
 
           <ul className="hidden lg:flex gap-4 cursor-pointer text-black ">
             <Link to="WeightLoss">
-              <li className="hover:text-[#FAA432] font-medium transition ease-in duration-300">Weight Loss </li>
+              <li className="hover:text-[#FAA432] font-medium transition ease-in duration-300">
+                Weight Loss{" "}
+              </li>
             </Link>
             <Link to="Nutrition">
               <li className="hover:text-[#FAA432] font-medium transition ease-in duration-300">
@@ -34,7 +36,9 @@ const Header = () => {
               </li>
             </Link>
             <Link to="SignIn">
-              <li className="font-bold hover:text-[#FAA432] transition ease-in duration-300">SignIn</li>
+              <li className="font-bold hover:text-[#FAA432] transition ease-in duration-300">
+                SignIn
+              </li>
             </Link>
           </ul>
 

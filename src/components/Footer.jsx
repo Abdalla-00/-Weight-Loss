@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../public/image/logo-2.png";
+import logo from "../assets/image/Logo/logo-2.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

@@ -1,5 +1,5 @@
 import React from "react";
-import SoTrack from "../../public/image/WeightLoss/SomaliTrack.png";
+import SoTrack from "../assets/image/WeightLoss/SomaliTrack.png";
 
 const Track = () => {
   return (

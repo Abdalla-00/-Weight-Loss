@@ -45,3 +45,5 @@ export const weightLossTips = [
       "Maintain consistent eating patterns. Skipping meals often leads to overeating later and can slow metabolism.",
   },
 ];
+
+
