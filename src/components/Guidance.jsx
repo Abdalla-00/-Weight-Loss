@@ -1,5 +1,5 @@
 import React from "react";
-import { weightLossTips } from "../data/weightLossTips";
+import { WeightLossTips } from "../data/weightLossTips";
 // import { iconMap } from "../utils/iconMap";
 
 const Guidance = () => {
@@ -14,7 +14,7 @@ const Guidance = () => {
       </div>
 
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mt-6 gap-7 p-4">
-        {weightLossTips.map((product,index) => {
+        {WeightLossTips.map((product,index) => {
           // console.log(weightLossTips);
           const Icon = product.Icon
           return (

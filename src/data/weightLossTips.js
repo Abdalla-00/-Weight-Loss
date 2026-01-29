@@ -7,7 +7,12 @@ import {
   Utensils,
 } from "lucide-react";
 
-export const weightLossTips = [
+import support1 from "../assets/image/Support/Support_1.png";
+import support2 from "../assets/image/Support/Support_2.png";
+import support3 from "../assets/image/Support/Support_3.png";
+import support4 from "../assets/image/Support/Support_4.png";
+
+export const WeightLossTips = [
   {
     Icon: CheckCircle,
     title: "Set Realistic Goals",
@@ -46,4 +51,29 @@ export const weightLossTips = [
   },
 ];
 
-
+export const supportLoss = [
+  {
+    image: support1,
+    title: "Lean Proteins",
+    description:
+      "Chicken breast, turkey, fish, tofu, legumes, and low-fat dairy help build muscle and keep you full longer.",
+  },
+  {
+    image: support4,
+    title: "Non-Starchy Vegetables",
+    description:
+      "Broccoli, spinach, kale, bell peppers, and cauliflower are low in calories but high in fiber and nutrients.",
+  },
+  {
+    image: support3,
+    title: "Whole Grains",
+    description:
+      "Quinoa, brown rice, oats, and barley provide fiber and sustained energy without spiking blood sugar.",
+  },
+  {
+    image: support2,
+    title: "Healthy Fats",
+    description:
+      "Avocados, nuts, seeds, and olive oil provide essential fatty acids and help with nutrient absorption.",
+  },
+];
