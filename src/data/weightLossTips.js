@@ -81,18 +81,21 @@ export const supportLoss = [
 
 export const sample = [
   {
-    desc1 : "",
-    desc2 : "",
-    desc3 : ""
+    title: "Breakfast",
+    desc1 : "Greek yogurt with berries and a tablespoon of honey",
+    desc2 : "Overnight oats with almond milk and chia seeds",
+    desc3 : "Vegetable omelet with whole grain toast"
   },
   {
-    desc1 : "",
-    desc2 : "",
-    desc3 : ""
+    title: "Lunch",
+    desc1 : "Grilled chicken salad with olive oil dressing",
+    desc2 : "Quinoa bowl with roasted vegetables and chickpeas",
+    desc3 : "Turkey and avocado wrap with side salad"
   },
   {
-    desc1 : "",
-    desc2 : "",
-    desc3 : ""
+    title: "Dinner",
+    desc1 : "Baked salmon with steamed broccoli and sweet potato",
+    desc2 : "Stir-fried tofu with mixed vegetables and brown rice",
+    desc3 : "Lentil soup with a side of mixed greens"
   },
 ];
