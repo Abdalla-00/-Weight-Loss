@@ -22,7 +22,7 @@ const WeightLossFoods = () => {
                 alt=""
               />
               <div className="p-4">
-                <h1 className="font-bold hover:text-[#22C55E] transition duration-300">{product.title}</h1>
+                <h1 className="font-bold hover:text-[#22C55E] transition duration-300  inline-block">{product.title}</h1>
                 <p className="mt-2 text-gray-600">{product.description}</p>
               </div>
             </div>
