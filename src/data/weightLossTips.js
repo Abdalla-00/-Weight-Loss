@@ -12,6 +12,8 @@ import support1 from "../assets/image/Support/Support_1.png";
 import support2 from "../assets/image/Support/Support_2.png";
 import support3 from "../assets/image/Support/Support_3.png";
 import support4 from "../assets/image/Support/Support_4.png";
+import som1 from "../assets/image/Support/som1.png"
+import som2 from "../assets/image/Support/som2.png"
 
 export const WeightLossTips = [
   {
@@ -99,3 +101,21 @@ export const sample = [
     desc3 : "Lentil soup with a side of mixed greens"
   },
 ];
+
+
+export const success = [
+  {
+    image: som1,
+    title: "Sarah J.",
+    subTitle: "Lost 32 pounds in 6 months",
+    description : "“NutriTracker changed my relationship with food. The meal tracking made me aware of my portions, and the personalized recommendations helped me make better choices. I’ve never felt healthier!”",
+    rating : "★★★★★"
+  },
+  {
+    image : som2,
+    title: "Michael T.",
+    subTitle: "Lost 45 pounds in 8 months",
+    description : "“As someone who travels frequently for work, eating healthy was always a challenge. The app’s restaurant suggestions and meal planning features made it so much easier to stay on track, even on the road.”",
+    rating : "★★★★★"
+  }
+]
