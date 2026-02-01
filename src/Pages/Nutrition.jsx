@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import NutritionDescrip from "../components/NutritionDescrip";
 
 const Nutrition = () => {
   return (
-    <div> 
-        
+    <div>
+      <NutritionDescrip />
     </div>
-  )
-}
+  );
+};
 
-export default Nutrition
+export default Nutrition;
