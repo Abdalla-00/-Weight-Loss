@@ -12,8 +12,15 @@ import support1 from "../assets/image/Support/Support_1.png";
 import support2 from "../assets/image/Support/Support_2.png";
 import support3 from "../assets/image/Support/Support_3.png";
 import support4 from "../assets/image/Support/Support_4.png";
-import som1 from "../assets/image/Support/som1.png"
-import som2 from "../assets/image/Support/som2.png"
+import som1 from "../assets/image/Support/som1.png";
+import som2 from "../assets/image/Support/som2.png";
+
+import popular1 from "../assets/image/Popular/P_1.png";
+import popular2 from "../assets/image/Popular/P_2.png";
+import popular3 from "../assets/image/Popular/P_3.png";
+import popular4 from "../assets/image/Popular/P_4.png";
+import popular5 from "../assets/image/Popular/P_5.png";
+import popular6 from "../assets/image/Popular/P_6.png";
 
 export const WeightLossTips = [
   {
@@ -84,38 +91,96 @@ export const supportLoss = [
 export const sample = [
   {
     title: "Breakfast",
-    desc1 : "Greek yogurt with berries and a tablespoon of honey",
-    desc2 : "Overnight oats with almond milk and chia seeds",
-    desc3 : "Vegetable omelet with whole grain toast"
+    desc1: "Greek yogurt with berries and a tablespoon of honey",
+    desc2: "Overnight oats with almond milk and chia seeds",
+    desc3: "Vegetable omelet with whole grain toast",
   },
   {
     title: "Lunch",
-    desc1 : "Grilled chicken salad with olive oil dressing",
-    desc2 : "Quinoa bowl with roasted vegetables and chickpeas",
-    desc3 : "Turkey and avocado wrap with side salad"
+    desc1: "Grilled chicken salad with olive oil dressing",
+    desc2: "Quinoa bowl with roasted vegetables and chickpeas",
+    desc3: "Turkey and avocado wrap with side salad",
   },
   {
     title: "Dinner",
-    desc1 : "Baked salmon with steamed broccoli and sweet potato",
-    desc2 : "Stir-fried tofu with mixed vegetables and brown rice",
-    desc3 : "Lentil soup with a side of mixed greens"
+    desc1: "Baked salmon with steamed broccoli and sweet potato",
+    desc2: "Stir-fried tofu with mixed vegetables and brown rice",
+    desc3: "Lentil soup with a side of mixed greens",
   },
 ];
-
 
 export const success = [
   {
     image: som1,
     title: "Sarah J.",
     subTitle: "Lost 32 pounds in 6 months",
-    description : "“NutriTracker changed my relationship with food. The meal tracking made me aware of my portions, and the personalized recommendations helped me make better choices. I’ve never felt healthier!”",
-    rating : "★★★★★"
+    description:
+      "“NutriTracker changed my relationship with food. The meal tracking made me aware of my portions, and the personalized recommendations helped me make better choices. I’ve never felt healthier!”",
+    rating: "★★★★★",
   },
   {
-    image : som2,
+    image: som2,
     title: "Michael T.",
     subTitle: "Lost 45 pounds in 8 months",
-    description : "“As someone who travels frequently for work, eating healthy was always a challenge. The app’s restaurant suggestions and meal planning features made it so much easier to stay on track, even on the road.”",
-    rating : "★★★★★"
-  }
-]
+    description:
+      "“As someone who travels frequently for work, eating healthy was always a challenge. The app’s restaurant suggestions and meal planning features made it so much easier to stay on track, even on the road.”",
+    rating: "★★★★★",
+  },
+];
+
+export const Popular = [
+  {
+    image: popular1,
+    title: "Mediterranean Diet",
+    description:
+      "Focuses on whole foods, fruits, vegetables, whole grains, and healthy fats like olive oil.",
+    detail1: "Heart-Healthy",
+    detail2: "Anti-Inflammatory",
+    detail3: "Sustainable",
+  },
+  {
+    image: popular2,
+    title: "Ketogenic Diet",
+    description:
+      "Very low-carb, high-fat diet that shifts the body into ketosis. Popular for rapid weight loss.",
+    detail1: "Weight-Loss",
+    detail2: "Blood Sugar Control",
+    detail3: "Hight Fat",
+  },
+  {
+    image: popular3,
+    title: "Plant-Based Diet",
+    description:
+      "Emphasizes plant foods like vegetables, fruits, legumes, nuts, and seeds with minimal animal products.",
+    detail1: "Eco-Friendly",
+    detail2: "High Fiber",
+    detail3: "Nutrient-Rich",
+  },
+  {
+    image: popular4,
+    title: "Paleo Diet",
+    description:
+      "Based on foods presumed to be eaten by early humans, including meats, fish, fruits, and vegetables.",
+    detail1: "Whole Foods",
+    detail2: "Grain-Free",
+    detail3: "Low Sugar",
+  },
+  {
+    image: popular5,
+    title: "Intermittent Fasting",
+    description:
+      "Alternates between periods of eating and fasting to improve metabolic health.",
+    detail1: "Metabolic Health",
+    detail2: "Flexible",
+    detail3: "Autophagy",
+  },
+  {
+    image: popular6,
+    title: "DASH Diet",
+    description:
+      "Designed to lower blood pressure and improve heart health through balanced nutrition.",
+    detail1: "Blood Pressure",
+    detail2: "Low Sodium",
+    detail3: "Heart Health",
+  },
+];
