@@ -11,7 +11,9 @@ const Popular = () => {
         </p>
       </div>
 
-      
+
+        
+
     </div>
   );
 };
