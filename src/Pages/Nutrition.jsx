@@ -6,7 +6,9 @@ const Nutrition = () => {
   return (
     <div>
       <NutritionDescrip />
-      <Popular />
+     <div className="max-w-6xl mx-auto">
+       <Popular />
+     </div>
     </div>
   );
 };

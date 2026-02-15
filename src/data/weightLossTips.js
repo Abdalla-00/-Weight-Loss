@@ -128,7 +128,7 @@ export const success = [
   },
 ];
 
-export const Popular = [
+export const popular = [
   {
     image: popular1,
     title: "Mediterranean Diet",
@@ -169,7 +169,7 @@ export const Popular = [
     image: popular5,
     title: "Intermittent Fasting",
     description:
-      "Alternates between periods of eating and fasting to improve metabolic health.",
+      "Alternates between periods of eating and fasting to improve metabolic.  health.",
     detail1: "Metabolic Health",
     detail2: "Flexible",
     detail3: "Autophagy",
