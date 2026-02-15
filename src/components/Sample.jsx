@@ -3,7 +3,7 @@ import { sample } from "../data/weightLossTips";
 
 const Sample = () => {
   return (
-    <div className="bg-gray-100  mt-20 pb-12">
+    <div className="bg-gray-100  mt-20 p-4">
       <div className="text-center p-5">
         <h1 className="font-semibold text-2xl">Sample Meal Plan</h1>
       </div>

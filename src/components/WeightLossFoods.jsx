@@ -3,7 +3,7 @@ import { supportLoss } from "../data/weightLossTips";
 
 const WeightLossFoods = () => {
   return (
-    <div className="bg-gray-100  mt-6 py-12">
+    <div className="bg-gray-100  mt-6 p-4">
       <div className="text-center pt-6 px-4">
         <h1 className="text-2xl font-bold">Foods That Support Weight Loss</h1>
         <p className="text-gray-500 mt-2">
