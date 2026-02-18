@@ -5,6 +5,9 @@ import {
   Leaf,
   Scale,
   Utensils,
+  Heart,
+  MapPin,
+  Wheat,
   Circle,
 } from "lucide-react";
 
@@ -184,3 +187,18 @@ export const popular = [
     detail3: "Heart Health",
   },
 ];
+
+export const Understanding =[
+  {
+    Icon : "",
+    title : "",
+    description: "",
+    subTitle: "",
+    detail1: "",
+    detail2: "",
+    detail3: "",
+    detail4: "",
+    detail5: "",
+    
+  }
+]
