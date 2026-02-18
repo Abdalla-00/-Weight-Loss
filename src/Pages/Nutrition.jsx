@@ -1,6 +1,7 @@
 import React from "react";
 import NutritionDescrip from "../components/NutritionDescrip";
 import Popular from "../components/Popular";
+import Understanding from "../components/Understanding";
 
 const Nutrition = () => {
   return (
@@ -8,6 +9,7 @@ const Nutrition = () => {
       <NutritionDescrip />
       <div className="max-w-6xl mx-auto">
         <Popular />
+        <Understanding/>
       </div>
     </div>
   );
