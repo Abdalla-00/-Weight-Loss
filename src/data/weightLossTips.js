@@ -133,7 +133,7 @@ export const popular = [
     image: popular1,
     title: "Mediterranean Diet",
     description:
-      "Focuses on whole foods, fruits, vegetables, whole grains, and healthy fats like olive oil.",
+      "Focuses on whole foods, fruits, vegetables, whole grains, and healthy fats \nlike olive oil.",
     detail1: "Heart-Healthy",
     detail2: "Anti-Inflammatory",
     detail3: "Sustainable",
@@ -169,7 +169,7 @@ export const popular = [
     image: popular5,
     title: "Intermittent Fasting",
     description:
-      "Alternates between periods of eating and fasting to improve metabolic.  health.",
+      "Alternates between periods of eating and fasting to improve metabolic.\n  health.",
     detail1: "Metabolic Health",
     detail2: "Flexible",
     detail3: "Autophagy",
