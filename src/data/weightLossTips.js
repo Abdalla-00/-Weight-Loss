@@ -188,17 +188,41 @@ export const popular = [
   },
 ];
 
-export const Understanding =[
+export const understanding =[
   {
-    Icon : "",
-    title : "",
-    description: "",
-    subTitle: "",
-    detail1: "",
-    detail2: "",
-    detail3: "",
-    detail4: "",
-    detail5: "",
+    Icon : Heart,
+    title : "Proteins",
+    description: "Essential for building and repairing tissues, immune function, and enzyme production.",
+    subTitle: "Good Sources:",
+    detail1: "Lean meats and poultry",
+    detail2: "Fish and seafood",
+    detail3: "Eggs and dairy",
+    detail4: "Legumes and tofu",
+    detail5: "Nuts and seeds",
+    
+  },
+  {
+    Icon : MapPin,
+    title : "Carbohydrates",
+    description: "Primary energy source for the body, especially the brain and during high-intensity exercise.",
+    subTitle: "Good Sources:",
+    detail1: "Whole grains",
+    detail2: "Fruits and vegetables",
+    detail3: "Legumes and beans",
+    detail4: "Sweet potatoes",
+    detail5: "Quinoa and oats",
+    
+  },
+  {
+    Icon : Wheat,
+    title : "Fats",
+    description: "Essential for hormone production, brain health, vitamin absorption, and cell membrane integrity.",
+    subTitle: "Good Sources:",
+    detail1: "Avocados",
+    detail2: "Olive oil and olives",
+    detail3: "Nuts and seeds",
+    detail4: "Fatty fish (salmon, sardines)",
+    detail5: "Eggs and full-fat yogurt",
     
   }
 ]
