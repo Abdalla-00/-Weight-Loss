@@ -16,7 +16,7 @@ const Popular = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-3 gap-4">
           {popular.map((product,index)=>{
              return (
-              <div key={index} className="shadow-sm hover:shadow-2xl cursor-pointer transition duration-300 ease-in-out whitespace-pre-line">
+              <div key={index} className="shadow-sm hover:shadow-2xl cursor-pointer transition duration-300 ease-in-out whitespace-pre-line rounded-lg">
                   <img className="h-48 w-full object-cover rounded-lg " src={product.image} alt="" />
                   <div className="bg-white p-6 rounded-lg">
                     <h1 className="font-bold hover:text-[#22C55E] inline transition duration-300 ease-in-out">{product.title}</h1>
