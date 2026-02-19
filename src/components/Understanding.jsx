@@ -6,7 +6,7 @@ const Understanding = () => {
   // console.log(Array.isArray(understanding));
 
   return (
-    <div className="mt-20 mb-10">
+    <div className="mt-20  p-4">
       <Subtitle
         title={"Understanding Macronutrients"}
         description={
