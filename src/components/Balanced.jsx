@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import Subtitle from "./Subtitle";
+import { balanced } from "../data/weightLossTips";
 
 const Balanced = () => {
   return (
-    <div>Balanced</div>
-  )
-}
+    <div className="bg-gray-100 mt-20 py-6">
+      <Subtitle
+        title={"Balanced Meal Planning"}
+        description={
+          "Create nutritious, satisfying meals with these simple guidelines"
+        }
+      />
 
-export default Balanced
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-5">
+        
+      </div>
+    </div>
+  );
+};
+
+export default Balanced;

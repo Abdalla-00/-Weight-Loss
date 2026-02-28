@@ -25,6 +25,8 @@ import popular4 from "../assets/image/Popular/P_4.png";
 import popular5 from "../assets/image/Popular/P_5.png";
 import popular6 from "../assets/image/Popular/P_6.png";
 
+import balanced_I from "../assets/image/Balanced/Balaced.png";
+
 export const WeightLossTips = [
   {
     Icon: CheckCircle,
@@ -188,41 +190,72 @@ export const popular = [
   },
 ];
 
-export const understanding =[
+export const understanding = [
   {
-    Icon : Heart,
-    title : "Proteins",
-    description: "Essential for building and repairing tissues, immune function, and enzyme production.",
+    Icon: Heart,
+    title: "Proteins",
+    description:
+      "Essential for building and repairing tissues, immune function, and enzyme production.",
     subTitle: "Good Sources:",
     detail1: "Lean meats and poultry",
     detail2: "Fish and seafood",
     detail3: "Eggs and dairy",
     detail4: "Legumes and tofu",
     detail5: "Nuts and seeds",
-    
   },
   {
-    Icon : MapPin,
-    title : "Carbohydrates",
-    description: "Primary energy source for the body, especially the brain and during high-intensity exercise.",
+    Icon: MapPin,
+    title: "Carbohydrates",
+    description:
+      "Primary energy source for the body, especially the brain and during high-intensity exercise.",
     subTitle: "Good Sources:",
     detail1: "Whole grains",
     detail2: "Fruits and vegetables",
     detail3: "Legumes and beans",
     detail4: "Sweet potatoes",
     detail5: "Quinoa and oats",
-    
   },
   {
-    Icon : Wheat,
-    title : "Fats",
-    description: "Essential for hormone production, brain health, vitamin absorption, and cell membrane integrity.",
+    Icon: Wheat,
+    title: "Fats",
+    description:
+      "Essential for hormone production, brain health, vitamin absorption, and cell membrane integrity.",
     subTitle: "Good Sources:",
     detail1: "Avocados",
     detail2: "Olive oil and olives",
     detail3: "Nuts and seeds",
     detail4: "Fatty fish (salmon, sardines)",
     detail5: "Eggs and full-fat yogurt",
+  },
+];
+
+export const balanced = [
+  
+  {
+    title: "The Plate Method",
+    image: balanced_I,
+    description1 : "Fill half your plate with non-starchy vegetables - leafy greens, broccoli, peppers, etc.",
+    description2 : "Fill one quarter with protein - chicken, fish, tofu, beans, etc.",
+    description3 : "Fill one quarter with complex carbohydrates - brown rice, quinoa, sweet potato, etc.",
+    description4 : "Add a small amount of healthy fat - olive oil, avocado, nuts, etc."
+  },
+
+  {
+    title : "Meal Prep Tips",
+    Icon : Utensils,
+    subTitle1 : "Batch cook staples",
+    description1: "Prepare grains, proteins, and roasted vegetables in advance for quick meal assembly throughout the week.",
+    Icon: Leaf,
+    subTitle2 : "Use the rainbow approach",
+    description2 : "Include a variety of colorful fruits and vegetables to ensure a wide range of nutrients.",
+    Icon : Scale,
+    subTitle3 : "Invest in quality containers",
+    description3 : "Use glass containers with compartments to keep foods separate and maintain freshness.",
+    Icon : Clock,
+    subTitle4 : "Plan ahead",
+    description4 : "Set aside dedicated time each week for meal planning, shopping, and preparation.",
     
+    subTitle5 : "Pro Tip",
+    description5 : "Freeze individual portions of soups, stews, and casseroles for quick, nutritious meals when you're short on time."
   }
-]
+];
