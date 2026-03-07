@@ -13,7 +13,7 @@ const Balanced = () => {
         }
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 mt-5 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-5 gap-4 ">
         {balanced.map((product) => (
           <div className="bg-white p-4 rounded-lg">
             <h1 className="font-bold">{product.title}</h1>
@@ -45,6 +45,24 @@ const Balanced = () => {
                       </>
                     )}
                   </div>
+                ))}
+
+              {product.tips &&
+                product.tips.map((tip) => (
+                  <>
+                    <div className="flex items-center gap-3 mt-4">
+                      <span className="bg-[#0D9C4D]/10 p-[6px] rounded-full mb-8">
+                        <tip.Icon color="#0D9C4D" size={16} />
+                      </span>
+
+                      <div>
+                          <h2 className="font-semibold">{tip.subTitle}</h2>
+                          <p className="text-gray-500 text-[13px]">{tip.description}</p>
+                      </div>
+
+                    </div>
+                    
+                  </>
                 ))}
             </div>
           </div>

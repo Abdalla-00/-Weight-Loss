@@ -263,33 +263,33 @@ export const balanced = [
     tips: [
       {
         Icon: Utensils,
-        subTitle1: "Batch cook staples",
-        description1:
+        subTitle: "Batch cook staples",
+        description:
           "Prepare grains, proteins, and roasted vegetables in advance for quick meal assembly throughout the week.",
       },
       {
         Icon: Leaf,
-        subTitle2: "Use the rainbow approach",
-        description2:
+        subTitle: "Use the rainbow approach",
+        description:
           "Include a variety of colorful fruits and vegetables to ensure a wide range of nutrients.",
       },
       {
         Icon: Scale,
-        subTitle3: "Invest in quality containers",
-        description3:
+        subTitle: "Invest in quality containers",
+        description:
           "Use glass containers with compartments to keep foods separate and maintain freshness.",
       },
       {
         Icon: Clock,
-        subTitle4: "Plan ahead",
-        description4:
+        subTitle: "Plan ahead",
+        description:
           "Set aside dedicated time each week for meal planning, shopping, and preparation.",
       },
 
       {
         Icon: Wheat,
-        subTitle5: "Pro Tip",
-        description5:
+        subTitle: "Pro Tip",
+        description:
           "Freeze individual portions of soups, stews, and casseroles for quick, nutritious meals when you're short on time.",
       },
     ],
