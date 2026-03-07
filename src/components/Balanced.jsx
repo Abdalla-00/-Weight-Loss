@@ -48,20 +48,27 @@ const Balanced = () => {
                 ))}
 
               {product.tips &&
-                product.tips.map((tip) => (
+                product.tips.map((tip, idx) => (
                   <>
-                    <div className="flex items-center gap-3 mt-4">
-                      <span className="bg-[#0D9C4D]/10 p-[6px] rounded-full mb-8">
-                        <tip.Icon color="#0D9C4D" size={16} />
-                      </span>
+                    <div key={idx} className="flex items-center gap-3 mt-4">
+                      {tip.Icon && (
+                        <span className="bg-[#0D9C4D]/10 p-[6px] rounded-full mb-4">
+                          <tip.Icon color="#0D9C4D" size={16} />
+                        </span>
+                      )}
 
                       <div>
-                          <h2 className="font-semibold">{tip.subTitle}</h2>
-                          <p className="text-gray-500 text-[13px]">{tip.description}</p>
+                        <h2 className="font-semibold">{tip.subTitle}</h2>
+                        <p className="text-gray-500 text-[13px]">
+                          {tip.description}
+                        </p>
                       </div>
-
                     </div>
-                    
+
+                    <div className="mt-4 bg-[#0D9C4D]/10 text-[#0D9C4D] rounded-lg px-4 ">
+                      <h1 className="">{tip.subTitle1}</h1>
+                      <p className="mt-1">{tip.description1}</p>
+                    </div>
                   </>
                 ))}
             </div>
