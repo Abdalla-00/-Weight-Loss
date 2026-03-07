@@ -232,15 +232,29 @@ export const understanding = [
 export const balanced = [
   {
     title: "The Plate Method",
-    image: balanced_I,
-    description1:
-      "Fill half your plate with non-starchy vegetables - leafy greens, broccoli, peppers, etc.",
-    description2:
-      "Fill one quarter with protein - chicken, fish, tofu, beans, etc.",
-    description3:
-      "Fill one quarter with complex carbohydrates - brown rice, quinoa, sweet potato, etc.",
-    description4:
-      "Add a small amount of healthy fat - olive oil, avocado, nuts, etc.",
+
+    items: [
+      {
+        image: balanced_I,
+      },
+
+      {
+        bold: "Fill half your plate with non-starchy vegetables ",
+        normal: "- leafy greens, broccoli, peppers, etc.",
+      },
+      {
+        bold: "Fill one quarter with protein ",
+        normal: "- chicken, fish, tofu, beans, etc.",
+      },
+      {
+        bold: "Fill one quarter with complex carbohydrates ",
+        normal: "- brown rice, quinoa, sweet potato, etc.",
+      },
+      {
+        bold: "Add a small amount of healthy fat ",
+        normal: "- olive oil, avocado, nuts, etc.",
+      },
+    ],
   },
 
   {
