@@ -230,32 +230,54 @@ export const understanding = [
 ];
 
 export const balanced = [
-  
   {
     title: "The Plate Method",
     image: balanced_I,
-    description1 : "Fill half your plate with non-starchy vegetables - leafy greens, broccoli, peppers, etc.",
-    description2 : "Fill one quarter with protein - chicken, fish, tofu, beans, etc.",
-    description3 : "Fill one quarter with complex carbohydrates - brown rice, quinoa, sweet potato, etc.",
-    description4 : "Add a small amount of healthy fat - olive oil, avocado, nuts, etc."
+    description1:
+      "Fill half your plate with non-starchy vegetables - leafy greens, broccoli, peppers, etc.",
+    description2:
+      "Fill one quarter with protein - chicken, fish, tofu, beans, etc.",
+    description3:
+      "Fill one quarter with complex carbohydrates - brown rice, quinoa, sweet potato, etc.",
+    description4:
+      "Add a small amount of healthy fat - olive oil, avocado, nuts, etc.",
   },
 
   {
-    title : "Meal Prep Tips",
-    Icon : Utensils,
-    subTitle1 : "Batch cook staples",
-    description1: "Prepare grains, proteins, and roasted vegetables in advance for quick meal assembly throughout the week.",
-    Icon: Leaf,
-    subTitle2 : "Use the rainbow approach",
-    description2 : "Include a variety of colorful fruits and vegetables to ensure a wide range of nutrients.",
-    Icon : Scale,
-    subTitle3 : "Invest in quality containers",
-    description3 : "Use glass containers with compartments to keep foods separate and maintain freshness.",
-    Icon : Clock,
-    subTitle4 : "Plan ahead",
-    description4 : "Set aside dedicated time each week for meal planning, shopping, and preparation.",
-    
-    subTitle5 : "Pro Tip",
-    description5 : "Freeze individual portions of soups, stews, and casseroles for quick, nutritious meals when you're short on time."
-  }
+    title: "Meal Prep Tips",
+
+    tips: [
+      {
+        Icon: Utensils,
+        subTitle1: "Batch cook staples",
+        description1:
+          "Prepare grains, proteins, and roasted vegetables in advance for quick meal assembly throughout the week.",
+      },
+      {
+        Icon: Leaf,
+        subTitle2: "Use the rainbow approach",
+        description2:
+          "Include a variety of colorful fruits and vegetables to ensure a wide range of nutrients.",
+      },
+      {
+        Icon: Scale,
+        subTitle3: "Invest in quality containers",
+        description3:
+          "Use glass containers with compartments to keep foods separate and maintain freshness.",
+      },
+      {
+        Icon: Clock,
+        subTitle4: "Plan ahead",
+        description4:
+          "Set aside dedicated time each week for meal planning, shopping, and preparation.",
+      },
+
+      {
+        Icon: Wheat,
+        subTitle5: "Pro Tip",
+        description5:
+          "Freeze individual portions of soups, stews, and casseroles for quick, nutritious meals when you're short on time.",
+      },
+    ],
+  },
 ];
