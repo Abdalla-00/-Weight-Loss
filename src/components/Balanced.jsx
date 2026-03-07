@@ -13,7 +13,11 @@ const Balanced = () => {
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-5">
-        
+        {balanced.map((item)=>{
+          <div>
+              <h1>{item.tips}</h1>
+          </div>
+        })}
       </div>
     </div>
   );
