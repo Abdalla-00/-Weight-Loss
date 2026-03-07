@@ -25,14 +25,14 @@ const Balanced = () => {
                       <div className="mt-4">
                         <img
                           src={item.image}
-                          className="h-48 w-full object-cover rounded-lg"
+                          className="h-64 w-full object-cover rounded-lg"
                           alt=""
                         />
                       </div>
                     ) : (
                       <>
                         <div className="pt-2 flex gap-3 items-center">
-                          <div className="bg-[#0D9C4D]/10 w-4 rounded-full flex justify-center items-center">
+                          <div className="bg-[#0D9C4D]/10 w-4 rounded-full flex justify-center items-center mt-2">
                             <h1 className="text-[#0D9C4D] text-xs">{idx}</h1>
                           </div>
                           <div className="text-[12px] font-semibold mt-2">
