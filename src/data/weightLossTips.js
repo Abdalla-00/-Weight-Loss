@@ -287,11 +287,17 @@ export const balanced = [
       },
 
       {
-        Icon: Wheat,
-        subTitle: "Pro Tip",
-        description:
+        subTitle1: "Pro Tip",
+        description1:
           "Freeze individual portions of soups, stews, and casseroles for quick, nutritious meals when you're short on time.",
       },
     ],
   },
 ];
+
+// {
+//         Icon: Wheat,
+//         subTitle1: "Pro Tip",
+//         description1:
+//           "Freeze individual portions of soups, stews, and casseroles for quick, nutritious meals when you're short on time.",
+//       },
