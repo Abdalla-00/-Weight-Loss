@@ -1,7 +1,7 @@
 import React from "react";
 import Subtitle from "./Subtitle";
 import { balanced } from "../data/weightLossTips";
-import balanced_1 from "../assets/image/Balanced/Balaced.png"
+import balanced_1 from "../assets/image/Balanced/Balaced.png";
 
 const Balanced = () => {
   return (
@@ -14,14 +14,39 @@ const Balanced = () => {
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 mt-5 ">
-        {balanced.map((item)=>(
-          <div className="bg-white">
-            <h1>{item.title}</h1>
-            {item.tips && item.tips.map((tip)=>(
-              <div>
-                  <div><img className="" src={balanced_1} alt="" /></div>
-              </div>
-            ))}
+        {balanced.map((product) => (
+          <div className="bg-white p-4 rounded-lg">
+            <h1 className="font-bold">{product.title}</h1>
+            <div className="">
+              {product.items &&
+                product.items.map((item, idx) => (
+                  <div key={idx}>
+                    {item.image ? (
+                      <div className="mt-4">
+                        <img
+                          src={item.image}
+                          className="h-48 w-full object-cover rounded-lg"
+                          alt=""
+                        />
+                      </div>
+                    ) : (
+                      <>
+                        <div className="pt-2 flex gap-3 items-center">
+                          <div className="bg-[#0D9C4D]/10 w-4 rounded-full flex justify-center items-center">
+                            <h1 className="text-[#0D9C4D] text-xs">{idx}</h1>
+                          </div>
+                          <div className="text-[12px] font-semibold mt-2">
+                            {item.bold}{" "}
+                            <span className="text-gray-400 font-normal">
+                              {item.normal}
+                            </span>
+                          </div>
+                        </div>
+                      </>
+                    )}
+                  </div>
+                ))}
+            </div>
           </div>
         ))}
       </div>
