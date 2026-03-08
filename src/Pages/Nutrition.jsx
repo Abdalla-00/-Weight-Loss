@@ -3,6 +3,7 @@ import NutritionDescrip from "../components/NutritionDescrip";
 import Popular from "../components/Popular";
 import Understanding from "../components/Understanding";
 import Balanced from "../components/Balanced";
+import Asked from "../components/Asked";
 
 const Nutrition = () => {
   return (
@@ -10,8 +11,9 @@ const Nutrition = () => {
       <NutritionDescrip />
       <div className="max-w-6xl mx-auto">
         <Popular />
-        <Understanding/>
-        <Balanced/>
+        <Understanding />
+        <Balanced />
+        <Asked />
       </div>
     </div>
   );
