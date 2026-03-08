@@ -295,9 +295,20 @@ export const balanced = [
   },
 ];
 
-// {
-//         Icon: Wheat,
-//         subTitle1: "Pro Tip",
-//         description1:
-//           "Freeze individual portions of soups, stews, and casseroles for quick, nutritious meals when you're short on time.",
-//       },
+export const asked = [
+  {
+    title: "How many calories should I eat per day?",
+    description:
+      "Caloric needs vary based on age, sex, weight, height, and activity level. For general guidance, adult women typically need 1,600-2,400 calories per day, while adult men need about 2,000-3,000 calories. Use our calculator for personalized recommendations.",
+  },
+  {
+    title: "What's the difference between simple and complex carbohydrates?",
+    description:
+      "Simple carbs (like sugar and white flour) are quickly digested and can spike blood sugar. Complex carbs (like whole grains and vegetables) contain fiber, digest more slowly, and provide sustained energy without dramatic blood sugar fluctuations.",
+  },
+  {
+    title: "How much protein do I need?",
+    description:
+      "The Recommended Dietary Allowance (RDA) is 0.8 grams per kilogram of body weight. However, active individuals, older adults, and those looking to build muscle may benefit from higher intake, typically 1.2-2.0 g/kg of body weight.",
+  },
+];
