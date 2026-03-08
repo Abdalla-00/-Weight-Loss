@@ -1,7 +1,6 @@
 import React from "react";
 import Subtitle from "./Subtitle";
 import { balanced } from "../data/weightLossTips";
-import balanced_1 from "../assets/image/Balanced/Balaced.png";
 
 const Balanced = () => {
   return (
