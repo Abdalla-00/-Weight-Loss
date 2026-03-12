@@ -1,6 +1,6 @@
 import React from "react";
 
-const SubHeader = ({ title, description, button }) => {
+const SubHeader = ({ title, description, button, input, button1 }) => {
   return (
     <div className="bg-[#22C55E]  h-[439px] mt-4 flex flex-col justify-center items-center gap-y-3">
       <div className="text-center  max-w-[700px] mx-auto text-white">
