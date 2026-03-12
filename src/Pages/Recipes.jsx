@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import RecipDescrip from "../components/RecipDescrip";
 
 const Recipes = () => {
   return (
-    <div>Recipes</div>
-  )
-}
+    <div>
+      <RecipDescrip />
+    </div>
+  );
+};
 
-export default Recipes
+export default Recipes;
