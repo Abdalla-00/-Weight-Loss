@@ -14,15 +14,24 @@ const Success = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-4">
         {success.map((product, index) => {
           return (
-            <div key={index} className="bg-gray-100 p-6 rounded-xl shadow-sm hover:shadow-2xl transition duration-300 ease-in-out cursor-pointer">
+            <div
+              key={index}
+              className="bg-gray-100 p-6 rounded-xl shadow-sm hover:shadow-2xl transition duration-300 ease-in-out cursor-pointer"
+            >
               <div className="flex gap-4 items-center ">
-                <img className="w-12 h-12 rounded-full object-cover" src={product.image} alt="" />
+                <img
+                  className="w-12 h-12 rounded-full object-cover"
+                  src={product.image}
+                  alt=""
+                />
                 <div>
                   <h1 className="font-semibold text-sm">{product.title}</h1>
                   <h2 className="text-gray-500 text-xs">{product.subTitle}</h2>
                 </div>
               </div>
-              <p className="text-sm text-gray-500 mt-4 leading-relaxed">{product.description}</p>
+              <p className="text-sm text-gray-500 mt-4 leading-relaxed">
+                {product.description}
+              </p>
               <span className="text-yellow-500">{product.rating}</span>
             </div>
           );
