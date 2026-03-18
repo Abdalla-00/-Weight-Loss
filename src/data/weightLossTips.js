@@ -27,6 +27,15 @@ import popular6 from "../assets/image/Popular/P_6.png";
 
 import balanced_I from "../assets/image/Balanced/Balaced.png";
 
+import Breakfast from "../assets/image/Recips/Breakfast.C.png";
+import Dinner from "../assets/image/Recips/Dinner.C.png";
+import Gluten from "../assets/image/Recips/Gluten.C.png";
+import Lunch from "../assets/image/Recips/Lunch.C.png";
+import Quick from "../assets/image/Recips/Quick.C.png";
+import Snacks from "../assets/image/Recips/Snacks.C.png";
+import Vegan from "../assets/image/Recips/Vegan.C.png";
+import Vegetarian from "../assets/image/Recips/Vegetarian.C.png";
+
 export const WeightLossTips = [
   {
     Icon: CheckCircle,
@@ -310,5 +319,48 @@ export const asked = [
     title: "How much protein do I need?",
     description:
       "The Recommended Dietary Allowance (RDA) is 0.8 grams per kilogram of body weight. However, active individuals, older adults, and those looking to build muscle may benefit from higher intake, typically 1.2-2.0 g/kg of body weight.",
+  },
+];
+
+export const category = [
+  {
+    image: Breakfast,
+    title: "Breakfast",
+    description: "Start your day right",
+  },
+  {
+    image: Lunch,
+    title: "Lunch",
+    description: "Midday fuel",
+  },
+  {
+    image: Dinner,
+    title: "Dinner",
+    description: "Evening satisfaction",
+  },
+  {
+    image: Snacks,
+    title: "Snacks",
+    description: "Healthy bites",
+  },
+  {
+    image: Vegetarian,
+    title: "Vegetarian",
+    description: "Plant-powered meals",
+  },
+  {
+    image: Vegan,
+    title: "Vegan",
+    description: "100% plant-based",
+  },
+  {
+    image: Gluten,
+    title: "Gluten-Free",
+    description: "No gluten, all flavor",
+  },
+  {
+    image: Quick,
+    title: "Quick & Easy",
+    description: "30 minutes or less",
   },
 ];
