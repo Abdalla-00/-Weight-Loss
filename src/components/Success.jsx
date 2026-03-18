@@ -14,7 +14,7 @@ const Success = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-4">
         {success.map((product, index) => {
           return (
-            <div className="bg-gray-100 p-6 rounded-xl shadow-sm hover:shadow-2xl transition duration-300 ease-in-out cursor-pointer">
+            <div key={index} className="bg-gray-100 p-6 rounded-xl shadow-sm hover:shadow-2xl transition duration-300 ease-in-out cursor-pointer">
               <div className="flex gap-4 items-center ">
                 <img className="w-12 h-12 rounded-full object-cover" src={product.image} alt="" />
                 <div>
