@@ -36,6 +36,10 @@ import Snacks from "../assets/image/Recips/Snacks.C.png";
 import Vegan from "../assets/image/Recips/Vegan.C.png";
 import Vegetarian from "../assets/image/Recips/Vegetarian.C.png";
 
+import Bowl from "../assets/image/Recips/Bowl.png";
+import Salsa from "../assets/image/Recips/Salsa.png";
+import Pudding from "../assets/image/Recips/Pudding.png";
+
 export const WeightLossTips = [
   {
     Icon: CheckCircle,
@@ -362,5 +366,41 @@ export const category = [
     image: Quick,
     title: "Quick & Easy",
     description: "30 minutes or less",
+  },
+];
+
+export const fearured = [
+  {
+    image: Bowl,
+    side: "Vegetarian",
+    min: "25 mins",
+    streak: "380 cal",
+    tem: "Easy",
+    title: "Mediterranean Quinoa Bowl",
+    description:
+      "Protein-packed quinoa with roasted vegetables, chickpeas, and a lemon-tahini dressing.",
+    view: "View Recipe →",
+  },
+  {
+    image: Salsa,
+    side: "High Protien",
+    min: "30 mins",
+    streak: "420 cal",
+    tem: "Medium",
+    title: "Grilled Salmon with Avocado Salsa",
+    description:
+      "Omega-3 rich salmon topped with fresh avocado salsa for a nutrient-dense dinner.",
+    view: "View Recipe →",
+  },
+  {
+    image: Pudding,
+    side: "Vegan",
+    min: "5 mins + overnight",
+    streak: "320 cal",
+    tem: "Easy",
+    title: "Overnight Chia Pudding",
+    description:
+      "Fiber-rich breakfast with chia seeds, plant milk, and fresh berries for sustained energy.",
+    view: "View Recipe →",
   },
 ];
