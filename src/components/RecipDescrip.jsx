@@ -13,7 +13,7 @@ const RecipDescrip = () => {
           techniques to transform your meals and nourish your body.
         </p>
 
-        <div className="flex flex-col md:flex-row gap-6 relative md:pl-24">
+        <div className="flex flex-col md:flex-row gap-6 relative md:pl-24 px-2">
           <input
             type="text"
             placeholder="    Search recipes..."
@@ -21,7 +21,7 @@ const RecipDescrip = () => {
           />
           <Search
             size={18}
-            className="absolute md:left-28 md:top-1/2 md:-translate-y-2 text-gray-500 top-4 left-4"
+            className="absolute md:left-28 md:top-1/2 md:-translate-y-2 text-gray-500 top-4 left-6"
           />
           <button className="bg-[#FAA432] hover:bg-white hover:text-[#22C55E]   px-6 py-3 rounded-full cursor-pointer transition duration-300 ease-in-out">
             Find Recipes
