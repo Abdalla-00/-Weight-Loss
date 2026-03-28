@@ -17,7 +17,7 @@ const Categories = () => {
             <div className=" relative">
               <img className="rounded-lg w-full" src={item.image} alt="" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent rounded-b-lg">
-                <div className="absolute lg:top-40 lg:left-2 md:top-80 md:left-4 top-[410px] left-4  ">
+                <div className=" pl-5 lg:mt-48 md:mt-[390px] mt-96 ">
                   <h1 className="text-white font-bold">{item.title}</h1>
                   <p className="text-gray-300 text-xs">{item.description}</p>
                 </div>
