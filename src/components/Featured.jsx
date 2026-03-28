@@ -15,7 +15,7 @@ const Featured = () => {
           <>
             <div className="mt-14">
               <div className="bg-amber-500 flex justify-end relative">
-                <span className="absolute">{item.side}</span>
+                <span className="absolute bg-[#0D9B4D] py-1 px-4 text-sm font-semibold rounded-full text-white">{item.side}</span>
                 <img className="w-full h-48" src={item.image} alt="" />
               </div>
             </div>
