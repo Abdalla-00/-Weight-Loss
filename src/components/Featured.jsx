@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Subtitle from "./Subtitle";
 
 const Featured = () => {
   return (
-    <div className='bg-blue-700 p-7 mt-20'>Featured</div>
-  )
-}
+    <div className=" mt-20">
+      <Subtitle
+        title={"Featured Recipes"}
+        description={"Our most popular, nutritionist-approved recipes"}
+      />
+    </div>
+  );
+};
 
-export default Featured
+export default Featured;
