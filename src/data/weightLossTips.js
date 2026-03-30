@@ -9,6 +9,8 @@ import {
   MapPin,
   Wheat,
   Circle,
+  Flame,
+  UtensilsCrossed,
 } from "lucide-react";
 
 import support1 from "../assets/image/Support/Support_1.png";
@@ -373,34 +375,40 @@ export const fearured = [
   {
     image: Bowl,
     side: "Vegetarian",
-    min: "25 mins",
-    streak: "380 cal",
-    tem: "Easy",
     title: "Mediterranean Quinoa Bowl",
     description:
       "Protein-packed quinoa with roasted vegetables, chickpeas, and a lemon-tahini dressing.",
     view: "View Recipe →",
+    details: [
+      { icon: Clock, text: "25 mins" },
+      { icon: Flame, text: "380 cal" },
+      { icon:  UtensilsCrossed, text: "Easy" },
+    ],
   },
   {
     image: Salsa,
     side: "High Protien",
-    min: "30 mins",
-    streak: "420 cal",
-    tem: "Medium",
     title: "Grilled Salmon with Avocado Salsa",
     description:
       "Omega-3 rich salmon topped with fresh avocado salsa for a nutrient-dense dinner.",
     view: "View Recipe →",
+    details: [
+      { icon: Clock, text: "30 mins" },
+      { icon: Flame, text: "420 cal" },
+      { icon:  UtensilsCrossed, text: "Medium" },
+    ],
   },
   {
     image: Pudding,
     side: "Vegan",
-    min: "5 mins + overnight",
-    streak: "320 cal",
-    tem: "Easy",
     title: "Overnight Chia Pudding",
     description:
       "Fiber-rich breakfast with chia seeds, plant milk, and fresh berries for sustained energy.",
     view: "View Recipe →",
+    details: [
+      { icon: Clock, text: "5 mins + overnight" },
+      { icon: Flame, text: "320 cal" },
+      { icon:  UtensilsCrossed, text: "Easy" },
+    ],
   },
 ];
