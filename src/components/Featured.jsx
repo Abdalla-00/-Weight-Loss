@@ -11,9 +11,10 @@ const Featured = () => {
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
-        {fearured.map((item) => (
+        {fearured.map((item, idx) => (
           <>
-            <div className="mt-14 p-1 lg:pl-0">
+            <div key={idx} className="mt-14 p-1 lg:pl-0">
+              {/* image  */}
               <div className=" flex justify-end relative ">
                 <span className="absolute bg-[#0D9B4D] py-1 mr-1  px-4 text-sm font-semibold rounded-full text-white mt-2">
                   {item.side}
@@ -26,12 +27,20 @@ const Featured = () => {
                 <div className="inset-0  absolute  bg-gradient-to-t from-black/80 to-transparent "></div>
               </div>
 
-              <div className="shadow-sm p-2 rounded-lg">
-                <div className="flex gap-3 text-gray-500 text-sm  pt-3">
-                  <span>{item.min}</span>
-                  <span>{item.streak}</span>
-                  <span>{item.tem}</span>
+              <div className="shadow-sm  rounded-lg p-3">
+                {/* icon  */}
+                <div className="flex items-center gap-4 text-gray-500 text-sm pt-3">
+                  {item.details.map((detail, idx) => {
+                    const Icon = detail.icon;
+                    return (
+                      <div className="flex items-center gap-1" key={idx}>
+                        <Icon size={14} />
+                        <span className="">{detail.text}</span>
+                      </div>
+                    );
+                  })}
                 </div>
+                {/* text_content */}
 
                 <div className="">
                   <h1 className="font-bold">{item.title}</h1>
