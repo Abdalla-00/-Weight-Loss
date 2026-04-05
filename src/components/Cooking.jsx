@@ -18,9 +18,11 @@ const Cooking = () => {
           return (
             <>
               <div className="flex justify-center items-center" key={idx}>
-                <div className="bg-gray-100 rounded-lg">
+                <div className="bg-gray-100 rounded-lg p-4">
                   {/* icon */}
-                  <Icon />
+                  <div className="bg-[#0D9C4D]/40 w-10 h-10 rounded-full flex justify-center items-center">
+                    <Icon color="#0D9C4D" />
+                  </div>
                   {/* text-conrant */}
                   <div>
                     <h1>{item.title}</h1>
