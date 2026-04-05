@@ -1,16 +1,18 @@
 import React from "react";
 import Subtitle from "./Subtitle";
 import { fearured } from "../data/weightLossTips";
+import { Icons } from "../icons/icons";
 
 const Featured = () => {
+  const Icon = Icons.moveRight;
   return (
-    <div className=" mt-20 mb-10">
+    <div className=" mt-20 mb-10 bg-gray-100 py-4 rounded-lg">
       <Subtitle
         title={"Featured Recipes"}
         description={"Our most popular, nutritionist-approved recipes"}
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 ">
         {fearured.map((item, idx) => (
           <>
             <div key={idx} className="mt-14 p-1 lg:pl-0">
@@ -55,6 +57,14 @@ const Featured = () => {
             </div>
           </>
         ))}
+      </div>
+
+      {/* Button */}
+      <div className=" text-center flex justify-center mt-4">
+        <button className="flex items-center gap-2 hover:gap-3 transition-all  font-semibold text-[#0D9B4D] border border-[#0D9B4D] py-1 px-4 rounded-full cursor-pointer">
+          Browse All Recipes
+          <Icon size={20} className="mt-1" />
+        </button>
       </div>
     </div>
   );
