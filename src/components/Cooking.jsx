@@ -12,7 +12,7 @@ const Cooking = () => {
         }
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-20  mt-7">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-7  mt-7">
         {cooking.map((item, idx) => {
           const Icon = item.Icon;
           return (
