@@ -15,7 +15,7 @@ const Featured = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 ">
         {fearured.map((item, idx) => (
           <>
-            <div key={idx} className="mt-14 p-1 lg:pl-0">
+            <div key={idx} className="lg:mt-14 p-1 lg:pl-0">
               {/* image  */}
               <div className=" flex justify-end relative ">
                 <span className="absolute bg-[#0D9B4D] py-1 mr-1  px-4 text-sm font-semibold rounded-full text-white mt-2">
