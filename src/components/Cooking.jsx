@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import Subtitle from "./Subtitle";
 
 const Cooking = () => {
   return (
-    <div>Cooking</div>
-  )
-}
+    <div>
+      <Subtitle
+        title={"Master Essential Cooking Techniques"}
+        description={
+          "Learn the fundamental skills that will elevate your cooking"
+        }
+      />
+    </div>
+  );
+};
 
-export default Cooking
+export default Cooking;
