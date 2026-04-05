@@ -420,7 +420,7 @@ export const cooking = [
     title: "Knife Skills",
     description:
       "Proper knife techniques are the foundation of efficient cooking. Learn how to chop, dice, julienne, and more.",
-    link: "https://www.youtube.com/watch?v=G-Fg7l7G1zw",
+    link: "https://www.youtube.com/embed/G-Fg7l7G1zw",
     btn: "Watch Tutorial →",
   },
   {
@@ -428,7 +428,7 @@ export const cooking = [
     title: "Cooking Methods",
     description:
       "Understanding different cooking methods—sautéing, roasting, steaming, and more—allows you to bring out the best flavors.",
-    link: "https://www.youtube.com/watch?v=2oKbs4jAf7M",
+    link: "https://www.youtube.com/embed/2oKbs4jAf7M",
     btn: "Watch Tutorial →",
   },
 ];
