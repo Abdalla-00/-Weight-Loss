@@ -11,6 +11,7 @@ import {
   Circle,
   Flame,
   UtensilsCrossed,
+  ChefHat,
 } from "lucide-react";
 
 import support1 from "../assets/image/Support/Support_1.png";
@@ -382,7 +383,7 @@ export const fearured = [
     details: [
       { icon: Clock, text: "25 mins" },
       { icon: Flame, text: "380 cal" },
-      { icon:  UtensilsCrossed, text: "Easy" },
+      { icon: UtensilsCrossed, text: "Easy" },
     ],
   },
   {
@@ -395,7 +396,7 @@ export const fearured = [
     details: [
       { icon: Clock, text: "30 mins" },
       { icon: Flame, text: "420 cal" },
-      { icon:  UtensilsCrossed, text: "Medium" },
+      { icon: UtensilsCrossed, text: "Medium" },
     ],
   },
   {
@@ -408,7 +409,26 @@ export const fearured = [
     details: [
       { icon: Clock, text: "5 mins + overnight" },
       { icon: Flame, text: "320 cal" },
-      { icon:  UtensilsCrossed, text: "Easy" },
+      { icon: UtensilsCrossed, text: "Easy" },
     ],
+  },
+];
+
+export const cooking = [
+  {
+    Icon: ChefHat,
+    title: "Knife Skills",
+    description:
+      "Proper knife techniques are the foundation of efficient cooking. Learn how to chop, dice, julienne, and more.",
+    link: "https://www.youtube.com/watch?v=G-Fg7l7G1zw",
+    btn: "Watch Tutorial →",
+  },
+  {
+    Icon: Flame,
+    title: "Cooking Methods",
+    description:
+      "Understanding different cooking methods—sautéing, roasting, steaming, and more—allows you to bring out the best flavors.",
+    link: "https://www.youtube.com/watch?v=2oKbs4jAf7M",
+    btn: "Watch Tutorial →",
   },
 ];
