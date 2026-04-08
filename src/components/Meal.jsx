@@ -6,7 +6,7 @@ const Meal = () => {
   const Icon = Icons.check;
   console.log(meal);
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-7 bg-gray-100 p-7 mb-4 rounded-lg  ">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-7 bg-gray-100 p-7 mb-4 rounded-lg ">
       {/* left side */}
       <div className=" mt-6">
         <h1 className="text-2xl font-bold">{meal.title}</h1>
@@ -27,6 +27,7 @@ const Meal = () => {
           {meal.btn}
         </button>
       </div>
+
       {/* Right side */}
       <div className="hidden md:block">
         <img className="h-80 w-full rounded-lg" src={meal.image} alt="" />
