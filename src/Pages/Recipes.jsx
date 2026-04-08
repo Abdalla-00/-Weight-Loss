@@ -4,6 +4,7 @@ import Categories from "../components/Categories";
 import Featured from "../components/Featured";
 import Cooking from "../components/Cooking";
 import Meal from "../components/Meal";
+import Pro from "../components/Pro";
 
 const Recipes = () => {
   return (
@@ -14,6 +15,7 @@ const Recipes = () => {
         <Featured />
         <Cooking/>
         <Meal/>
+        <Pro/>
       </div>
     </div>
   );
