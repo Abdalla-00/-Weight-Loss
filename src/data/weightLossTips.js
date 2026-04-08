@@ -421,7 +421,7 @@ export const cooking = [
     description:
       "Proper knife techniques are the foundation of efficient cooking. Learn how to chop, dice, julienne, and more.",
     link: "https://www.youtube.com/embed/G-Fg7l7G1zw",
-    btn: "Watch Tutorial →",
+    btn: "Watch Tutorial ",
   },
   {
     Icon: Flame,
@@ -429,6 +429,6 @@ export const cooking = [
     description:
       "Understanding different cooking methods—sautéing, roasting, steaming, and more—allows you to bring out the best flavors.",
     link: "https://www.youtube.com/embed/2oKbs4jAf7M",
-    btn: "Watch Tutorial →",
+    btn: "Watch Tutorial ",
   },
 ];
