@@ -3,6 +3,7 @@ import RecipDescrip from "../components/RecipDescrip";
 import Categories from "../components/Categories";
 import Featured from "../components/Featured";
 import Cooking from "../components/Cooking";
+import Meal from "../components/Meal";
 
 const Recipes = () => {
   return (
@@ -12,6 +13,7 @@ const Recipes = () => {
         <Categories />
         <Featured />
         <Cooking/>
+        <Meal/>
       </div>
     </div>
   );
