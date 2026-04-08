@@ -8,7 +8,7 @@ const Recipes = () => {
   return (
     <div>
       <RecipDescrip />
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <Categories />
         <Featured />
         <Cooking/>
