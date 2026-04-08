@@ -19,7 +19,7 @@ const Cooking = () => {
           const Arrow = Icons.moveRight;
           return (
             <>
-              <div className="flex justify-center items-center" key={idx}>
+              <div className="flex justify-center items-center lg:p-0 p-1" key={idx}>
                 <div className="bg-gray-100 rounded-lg p-4">
                   {/* icon */}
                   <div className="bg-[#0D9C4D]/20 w-10 h-10 rounded-full flex justify-center items-center">
