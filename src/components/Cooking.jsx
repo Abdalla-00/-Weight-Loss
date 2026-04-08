@@ -20,16 +20,16 @@ const Cooking = () => {
               <div className="flex justify-center items-center" key={idx}>
                 <div className="bg-gray-100 rounded-lg p-4">
                   {/* icon */}
-                  <div className="bg-[#0D9C4D]/40 w-10 h-10 rounded-full flex justify-center items-center">
+                  <div className="bg-[#0D9C4D]/20 w-10 h-10 rounded-full flex justify-center items-center">
                     <Icon color="#0D9C4D" />
                   </div>
                   {/* text-conrant */}
-                  <div>
-                    <h1>{item.title}</h1>
-                    <p>{item.description}</p>
+                  <div className="pt-2">
+                    <h1 className="font-semibold">{item.title}</h1>
+                    <p className="pt-4 text-gray-500 text-sm">{item.description}</p>
                   </div>
                   {/* video */}
-                  <div className="h-48 w-full">
+                  <div className="h-48 w-full pt-3">
                     <iframe
                       src={item.link}
                       frameBorder="0"
