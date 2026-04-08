@@ -43,6 +43,8 @@ import Bowl from "../assets/image/Recips/Bowl.png";
 import Salsa from "../assets/image/Recips/Salsa.png";
 import Pudding from "../assets/image/Recips/Pudding.png";
 
+import mea from "../assets/image/Recips/meal.png";
+
 export const WeightLossTips = [
   {
     Icon: CheckCircle,
@@ -432,3 +434,17 @@ export const cooking = [
     btn: "Watch Tutorial ",
   },
 ];
+
+export const meal = {
+  title: "Meal Planning Made Simple",
+  description:
+    "Our meal planning tools help you save time, reduce food waste, and maintain a balanced diet throughout the week.",
+  tips: [
+    "Customizable weekly meal plans based on your dietary preferences",
+    "Automatic grocery lists generated from your selected recipes",
+    "Nutritionally balanced meals that meet your health goals",
+  ],
+  btn: "Try Meal Planning",
+
+  image: mea,
+};
