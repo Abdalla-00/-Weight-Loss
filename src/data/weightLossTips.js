@@ -448,3 +448,21 @@ export const meal = {
 
   image: mea,
 };
+
+export const pro = [
+  {
+    title: "Prep Before Cooking",
+    description:
+      "Mise en place (everything in place) is the chef's secret to stress-free cooking. Prepare and measure all ingredients before you start cooking.",
+  },
+  {
+    title: "Season in Layers",
+    description:
+      "Add seasoning at different stages of cooking rather than all at once to build complex, well-developed flavors.",
+  },
+  {
+    title: "Rest Your Proteins",
+    description:
+      "Allow meat to rest after cooking to redistribute juices, resulting in more tender and flavorful results.",
+  },
+];
