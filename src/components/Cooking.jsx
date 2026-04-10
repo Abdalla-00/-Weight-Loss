@@ -5,7 +5,7 @@ import { Icons } from "../icons/icons";
 
 const Cooking = () => {
   return (
-    <div className="mb-10">
+    <div className="mb-10 mt-15">
       <Subtitle
         title={"Master Essential Cooking Techniques"}
         description={
