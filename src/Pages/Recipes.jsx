@@ -5,6 +5,7 @@ import Featured from "../components/Featured";
 import Cooking from "../components/Cooking";
 import Meal from "../components/Meal";
 import Pro from "../components/Pro";
+import Journey from "../components/Journey";
 
 const Recipes = () => {
   return (
@@ -16,6 +17,7 @@ const Recipes = () => {
         <Cooking/>
         <Meal/>
         <Pro/>
+        <Journey/>
       </div>
     </div>
   );
