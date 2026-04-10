@@ -2,9 +2,9 @@ import React from "react";
 
 const Journey = () => {
   return (
-    <div className="mt-30 bg-[#0D9C4D]  p-25">
+    <div className="mt-30 bg-[#22C55E]  p-25">
       <div className="text-white text-center  ">
-        <h1 className="text-2xl md:text-4xl  font-bold">
+        <h1 className="text-2xl md:text-4xl  font-bold text-shadow-2xs">
           Start Your Culinary Journey Today
         </h1>
         <p className="mt-3  max-w-[650px] mx-auto">
