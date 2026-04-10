@@ -14,11 +14,11 @@ const Recipes = () => {
       <div className="max-w-6xl mx-auto">
         <Categories />
         <Featured />
-        <Cooking/>
-        <Meal/>
-        <Pro/>
-        <Journey/>
+        <Cooking />
+        <Meal />
+        <Pro />
       </div>
+      <Journey />
     </div>
   );
 };
