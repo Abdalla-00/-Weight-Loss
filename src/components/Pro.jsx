@@ -4,7 +4,7 @@ import { pro } from "../data/weightLossTips";
 
 const Pro = () => {
   return (
-    <div className="mt-7 mb-6">
+    <div className="mt-17 mb-6">
       <Subtitle
         title={"Pro Cooking Tips"}
         description={"Simple hacks and techniques to elevate your cooking"}
