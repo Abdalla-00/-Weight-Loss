@@ -6,7 +6,7 @@ import { Icons } from "../icons/icons";
 const Featured = () => {
   const Icon = Icons.moveRight;
   return (
-    <div className=" mt-20 mb-10 bg-gray-100 py-4 rounded-lg">
+    <div className=" mt-20  bg-gray-100 py-4 rounded-lg">
       <Subtitle
         title={"Featured Recipes"}
         description={"Our most popular, nutritionist-approved recipes"}
