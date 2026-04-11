@@ -466,3 +466,5 @@ export const pro = [
       "Allow meat to rest after cooking to redistribute juices, resulting in more tender and flavorful results.",
   },
 ];
+
+export const Power = [];
