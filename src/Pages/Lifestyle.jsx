@@ -1,12 +1,16 @@
-import React from 'react'
-import Lifescrp from '../components/Lifescrp'
+import React from "react";
+import Lifescrp from "../components/Lifescrp";
+import Power from "../components/Power";
 
 const Lifestyle = () => {
   return (
     <div>
-      <Lifescrp/>
+      <Lifescrp />
+      <div className="max-w-4xl mx-auto">
+        <Power />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Lifestyle
+export default Lifestyle;
