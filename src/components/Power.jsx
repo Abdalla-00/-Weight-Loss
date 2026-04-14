@@ -4,7 +4,7 @@ import { power } from "../data/weightLossTips";
 
 const Power = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10 mb-7">
       <Subtitle
         title={"The Power of Mindset"}
         description={
@@ -12,18 +12,17 @@ const Power = () => {
         }
       />
 
-      <div className="flex gap-60">
-          {power.map((item)=>{
-            const Icon = item.Icon
-            console.log(item)
-            return (
-              <div className="">
-                  <Icon/>
-                  <h1>{item.title}</h1>
-                  <p>{item.description}</p>
-              </div>
-            )
-          })}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-9   ">
+        {power.map((item) => {
+          const Icon = item.Icon;
+          return (
+            <div className="p-5 ">
+              <Icon className="mb-3 " />
+              <h1>{item.title}</h1>
+              <p>{item.description}</p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
