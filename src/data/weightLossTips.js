@@ -12,6 +12,9 @@ import {
   Flame,
   UtensilsCrossed,
   ChefHat,
+  Smile,
+  Brain,
+  FileText,
 } from "lucide-react";
 
 import support1 from "../assets/image/Support/Support_1.png";
@@ -467,4 +470,23 @@ export const pro = [
   },
 ];
 
-export const Power = [];
+export const power = [
+  {
+    Icon: Brain,
+    title: "Growth Mindset",
+    description:
+      "Embrace challenges as opportunities for growth. View setbacks as temporary and valuable learning experiences rather than permanent failures.",
+  },
+  {
+    Icon: Smile,
+    title: "Positive Self-Talk",
+    description:
+      "The way you speak to yourself matters. Replace self-criticism with compassionate, encouraging internal dialogue to build confidence and resilience.",
+  },
+  {
+    Icon: FileText,
+    title: "Gratitude Practice",
+    description:
+      "Regularly acknowledging what you're grateful for shifts focus from what's lacking to what's abundant, fostering contentment and positive emotions.",
+  },
+];
