@@ -16,10 +16,12 @@ const Power = () => {
         {power.map((item) => {
           const Icon = item.Icon;
           return (
-            <div className="p-5 ">
-              <Icon className="mb-3 " />
-              <h1>{item.title}</h1>
-              <p>{item.description}</p>
+            <div className="p-5 bg-gray-50 rounded-lg  ">
+              <div className="flex justify-center items-center  bg-[#0D9C4D]/20 h-10 w-10 rounded-full">
+                <Icon color="#22C55E" size={22} className=" " />
+              </div>
+              <h1 className="font-bold mt-3">{item.title}</h1>
+              <p className="text-sm mt-2 text-gray-500">{item.description}</p>
             </div>
           );
         })}
