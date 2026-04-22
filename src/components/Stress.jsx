@@ -36,14 +36,21 @@ const Stress = () => {
 
         {/* left-side */}
         <div className="md:w-1/2 w-full ">
-          {stres[1].card2.map((items,index)=>{
-            return(
-                <div className="mt-5 shadow-sm">
-                    
-                    <h1>{items.title}</h1>
-                    <p>{items.description}</p>
+          {stres[1].card2.map((items, index) => {
+            const Icon = items.Icon;
+            return (
+              <div className="mt-4 shadow-sm p-4 rounded-lg">
+                <div className="bg-[#0D9C4D]/20 h-8 w-8 flex justify-center items-center rounded-full">
+                  <Icon size={18} className="text-[#0D9C4D]" />
                 </div>
-            )
+                <div className="mt-2">
+                  <h1 className="font-semibold  ">{items.title}</h1>
+                  <p className="text-gray-500 text-sm mt-1">
+                    {items.description}
+                  </p>
+                </div>
+              </div>
+            );
           })}
         </div>
       </div>
