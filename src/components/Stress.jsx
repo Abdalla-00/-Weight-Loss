@@ -4,7 +4,7 @@ import { stres } from "../data/weightLossTips";
 
 const Stress = () => {
   return (
-    <div className="mt-10 mb-7 bg-gray-100 p-6 rounded-lg">
+    <div className="mt-12 mb-7 bg-gray-100 p-6 rounded-lg">
       <Subtitle
         title={"Stress Management"}
         description={
