@@ -15,6 +15,8 @@ import {
   Smile,
   Brain,
   FileText,
+  Bell,
+  BookUp,
 } from "lucide-react";
 
 import support1 from "../assets/image/Support/Support_1.png";
@@ -47,6 +49,8 @@ import Salsa from "../assets/image/Recips/Salsa.png";
 import Pudding from "../assets/image/Recips/Pudding.png";
 
 import mea from "../assets/image/Recips/meal.png";
+
+import stress from "../assets/image/stress/stress.png";
 
 export const WeightLossTips = [
   {
@@ -488,5 +492,36 @@ export const power = [
     title: "Gratitude Practice",
     description:
       "Regularly acknowledging what you're grateful for shifts focus from what's lacking to what's abundant, fostering contentment and positive emotions.",
+  },
+];
+
+export const stress = [
+  {
+    card: [
+      {
+        image: stress,
+        title: "Meditation Practice",
+        description:
+          "Regular meditation reduces stress hormones, improves focus, and promotes emotional regulation. Even 5-10 minutes daily can make a significant difference.",
+      },
+    ],
+  },
+
+  {
+    card2: [
+      {
+        Icon: Bell,
+        title: "Deep Breathing",
+        description:
+          "Activates the parasympathetic nervous system, triggering relaxation. Try the 4-7-8 technique: inhale for 4 counts, hold for 7, exhale for 8.",
+      },
+
+      {
+        Icon: BookUp,
+        title: "Journaling",
+        description:
+          "Writing down thoughts and feelings helps process emotions and gain perspective. Spend 10 minutes daily with free-form writing or guided prompts.",
+      },
+    ],
   },
 ];
