@@ -4,7 +4,7 @@ import { power } from "../data/weightLossTips";
 
 const Power = () => {
   return (
-    <div className="mt-10 mb-7">
+    <div className="mt-10 mb-7 p-4 md:p-0">
       <Subtitle
         title={"The Power of Mindset"}
         description={
