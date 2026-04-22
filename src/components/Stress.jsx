@@ -12,21 +12,32 @@ const Stress = () => {
         }
       />
 
-      <div className="flex justify-center items-center mx-auto">
+      <div className="flex flex-col md:flex-row gap-5 items-center justify-center mt-7">
         {/* right-side */}
-        <div>
+        <div className="md:w-1/2 ">
           {stres[0].card.map((item, index) => {
-            console.log(item);
             return (
-              <div className="w-1/2">
-                <img src={item.image} className="h-48 w-full" alt="" />
+              <div className="shadow-sm rounded-lg">
+                <img
+                  src={item.image}
+                  className="h-48 w-full object-cover rounded-lg"
+                  alt=""
+                />
+                <div className="mt-4 p-4">
+                  <h1 className="font-bold">{item.title}</h1>
+                  <p className="text-gray-500 mt-2 text-sm">
+                    {item.description}
+                  </p>
+                </div>
               </div>
             );
           })}
         </div>
 
         {/* left-side */}
-        <div className="bg-blue-800">hi</div>
+        <div className="md:w-1/2 w-full bg-blue-800 text-white p-4 rounded-lg">
+          hi
+        </div>
       </div>
     </div>
   );
