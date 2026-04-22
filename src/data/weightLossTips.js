@@ -495,7 +495,7 @@ export const power = [
   },
 ];
 
-export const stress = [
+export const stres = [
   {
     card: [
       {
