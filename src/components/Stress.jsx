@@ -35,8 +35,16 @@ const Stress = () => {
         </div>
 
         {/* left-side */}
-        <div className="md:w-1/2 w-full bg-blue-800 text-white p-4 rounded-lg">
-          hi
+        <div className="md:w-1/2 w-full ">
+          {stres[1].card2.map((items,index)=>{
+            return(
+                <div className="mt-5 shadow-sm">
+                    
+                    <h1>{items.title}</h1>
+                    <p>{items.description}</p>
+                </div>
+            )
+          })}
         </div>
       </div>
     </div>
