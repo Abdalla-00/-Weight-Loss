@@ -543,5 +543,32 @@ export const Sleep = [
         "Balances emotional regulation",
       ],
     },
+
+    tips: [
+      {
+        title: "Sleep Hygiene Practices",
+      },
+
+      {
+        Subtitles: " Consistent Schedule",
+        description:
+          "Go to bed and wake up at the same time daily, even on weekends, to regulate your body's internal clock.",
+      },
+      {
+        Subtitles: "Optimize Your Environment",
+        description:
+          "Keep your bedroom cool (60–67°F), dark, and quiet. Consider blackout curtains, white noise machines, or earplugs if needed.",
+      },
+      {
+        Subtitles: "Limit Screen Time",
+        description:
+          "Avoid screens 1–2 hours before bed. Blue light suppresses melatonin production, making it harder to fall asleep.",
+      },
+      {
+        Subtitles: "Watch Your Consumption",
+        description:
+          "Avoid caffeine after noon and limit alcohol, which disrupts REM sleep. Finish eating 2–3 hours before bedtime.",
+      },
+    ],
   },
 ];
