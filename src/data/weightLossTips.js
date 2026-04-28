@@ -528,7 +528,7 @@ export const stres = [
   },
 ];
 
-export const Sleep = [
+export const sleep = [
   {
     main: {
       Icon: Moon,
