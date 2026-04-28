@@ -17,8 +17,6 @@ import {
   FileText,
   Bell,
   BookUp,
-  Moon,
-  Subtitles,
 } from "lucide-react";
 
 import support1 from "../assets/image/Support/Support_1.png";
@@ -530,19 +528,30 @@ export const stres = [
 
 export const sleep = [
   {
-    main: {
-      Icon: Moon,
-      title: "The Science of Sleep",
-      description:
-        "Sleep is not merely rest—it's an active period of restoration and processing. During sleep, your body:",
-      list: [
-        "Repairs tissues and strengthens immune function",
-        "Consolidates memories and learning",
-        "Regulates hormones that control appetite and metabolism",
-        "Clears waste products from the brain",
-        "Balances emotional regulation",
-      ],
-    },
+    main: [
+      {
+        title: "The Science of Sleep",
+        description:
+          "Sleep is not merely rest—it's an active period of restoration and processing. During sleep, your body:",
+        list: [
+          {
+            text: "Repairs tissues and strengthens immune function",
+          },
+          {
+            text: "Consolidates memories and learning",
+          },
+          {
+            text: "Regulates hormones that control appetite and metabolism",
+          },
+          {
+            text: "Clears waste products from the brain",
+          },
+          {
+            text: "Balances emotional regulation",
+          },
+        ],
+      },
+    ],
 
     tips: [
       {
