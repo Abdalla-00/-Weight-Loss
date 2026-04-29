@@ -3,6 +3,7 @@ import Lifescrp from "../components/Lifescrp";
 import Power from "../components/Power";
 import Stress from "../components/Stress";
 import Sleep from "../components/Sleep";
+import Movement from "../components/Movement";
 
 const Lifestyle = () => {
   return (
@@ -12,6 +13,7 @@ const Lifestyle = () => {
         <Power />
         <Stress />
         <Sleep/>
+        <Movement/>
       </div>
     </div>
   );
