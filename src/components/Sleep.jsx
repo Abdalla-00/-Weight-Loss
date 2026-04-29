@@ -17,7 +17,7 @@ const Sleep = () => {
         }
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10  mb-6 px-4 md:px-0 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10  px-4 md:px-0 ">
         <div className="bg-gray-100 p-6 rounded-lg">
           {/* description */}
           <div className="mt-3">
