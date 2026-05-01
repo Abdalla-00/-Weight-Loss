@@ -6,6 +6,7 @@ import { Icons } from "../icons/icons";
 const Movement = () => {
   const data = movement;
   const subtitle = data.main.subtitle;
+  const suptitle = data.tips.subtitle;
   const Icon = Icons.dot;
   console.log(data);
   return (
@@ -26,15 +27,35 @@ const Movement = () => {
             <h1 className="text-xl font-semibold">{data.title}</h1>
             <p className="text-gray-500 text-sm mt-3">{data.description}</p>
 
-            {/* map fist section */}
-            <div className="bg-white p-4 round-lg mt-6">
-              <h2 className="">{subtitle}</h2>
+            {/* map list one section */}
+            <div className="bg-white p-4 rounded-lg mt-6">
+              <h2 className="font-semibold">{subtitle}</h2>
               {movement.main.list.map((li) => {
                 return (
                   <div className="flex">
                     <Icon className="mt-3 text-[#0D9C4D]" />
                     <ul className="mt-3 text-gray-500">{li.text}</ul>
                   </div>
+                );
+              })}
+            </div>
+
+            {/* map list two section */}
+
+            <div className="bg-white mt-6 rounded-lg p-4">
+              <h2 className="font-semibold">{subtitle}</h2>
+              <p className="text-gray-500 text-sm mt-3">
+                {data.tips.description}
+              </p>
+
+              {movement.tips.lists.map((lists) => {
+                return (
+                  <>
+                    <div className="flex">
+                      <Icon className="mt-3 text-[#0D9C4D]"/>
+                      <ul className="text-gray-500 mt-3">{lists.text}</ul>
+                    </div>
+                  </>
                 );
               })}
             </div>
