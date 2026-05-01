@@ -587,48 +587,44 @@ export const movement = {
   description:
     "When movement becomes something you look forward to rather than a chore, you're more likely to stay consistent. The best physical activity is the one you'll actually do regularly.",
 
-  main: 
-    {
-      subtitle: "Benefits of Regular Movement",
-      list: [
-        {
-          text: "Improves mood by releasing endorphins",
-        },
-        {
-          text: "Reduces stress and anxiety",
-        },
-        {
-          text: "Enhances cognitive function and creativity",
-        },
-        {
-          text: "Boosts energy and reduces fatigue",
-        },
-        {
-          text: "Strengthens immune function",
-        },
-      ],
-    },
-  
+  main: {
+    subtitle: "Benefits of Regular Movement",
+    list: [
+      {
+        text: "Improves mood by releasing endorphins",
+      },
+      {
+        text: "Reduces stress and anxiety",
+      },
+      {
+        text: "Enhances cognitive function and creativity",
+      },
+      {
+        text: "Boosts energy and reduces fatigue",
+      },
+      {
+        text: "Strengthens immune function",
+      },
+    ],
+  },
 
-  tips: [
-    {
-      subtitle: "Finding Your Movement Style",
-      description:
-        "Consider these questions to discover activities you'll genuinely enjoy:",
+  tips: {
+    subtitle: "Finding Your Movement Style",
+    description:
+      "Consider these questions to discover activities you'll genuinely enjoy:",
 
-      lists: [
-        {
-          text: "Do you prefer solo activities or social settings?",
-        },
-        {
-          text: "Do you enjoy being outdoors or indoors?",
-        },
-        {
-          text: "Do you like structure or flexibility?",
-        },
-      ],
-    },
-  ],
+    lists: [
+      {
+        text: "Do you prefer solo activities or social settings?",
+      },
+      {
+        text: "Do you enjoy being outdoors or indoors?",
+      },
+      {
+        text: "Do you like structure or flexibility?",
+      },
+    ],
+  },
 
   card: [
     {
