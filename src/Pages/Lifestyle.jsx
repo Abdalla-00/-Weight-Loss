@@ -9,7 +9,7 @@ const Lifestyle = () => {
   return (
     <div>
       <Lifescrp />
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <Power />
         <Stress />
         <Sleep/>
