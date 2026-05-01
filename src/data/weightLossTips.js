@@ -52,6 +52,11 @@ import mea from "../assets/image/Recips/meal.png";
 
 import stress from "../assets/image/stress/stress.png";
 
+import m1 from "../assets/image/movements/m1.png";
+import m2 from "../assets/image/movements/m2.png";
+import m3 from "../assets/image/movements/m3.png";
+import m4 from "../assets/image/movements/m4.png";
+
 export const WeightLossTips = [
   {
     Icon: CheckCircle,
@@ -628,25 +633,25 @@ export const movement = {
 
   card: [
     {
-      image: "",
+      image: m1,
       subtitle: "Yoga & Stretching",
       description:
         "Improves flexibility, balance, and mind-body awareness. Great for stress reduction and recovery.",
     },
     {
-      image: "",
+      image: m2,
       subtitle: "Walking & Hiking",
       description:
         "Accessible, low-impact activity that combines movement with nature for mental clarity.",
     },
     {
-      image: "",
+      image: m3,
       subtitle: "Dance & Movement",
       description:
         "Joyful expression through movement that improves coordination, mood, and cardiovascular health.",
     },
     {
-      image: "",
+      image: m4,
       subtitle: "Strength Training",
       description:
         "Builds muscle, boosts metabolism, and improves functional fitness for daily activities.",
