@@ -19,16 +19,16 @@ const Movement = () => {
       />
 
       <div className="mt-8">
-        <div className="flex gap-7 justify-center items-center">
+        <div className="flex flex-col md:flex-row gap-7 justify-center items-center ">
           {/* left_side */}
 
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 ">
             {/* title and description */}
             <h1 className="text-xl font-semibold">{data.title}</h1>
             <p className="text-gray-500 text-sm mt-3">{data.description}</p>
 
             {/* map list one section */}
-            <div className="bg-white p-4 rounded-lg mt-6">
+            <div className="bg-white p-4 rounded-lg mt-6 shadow-sm">
               <h2 className="font-semibold">{subtitle}</h2>
               {movement.main.list.map((li) => {
                 return (
@@ -42,7 +42,7 @@ const Movement = () => {
 
             {/* map list two section */}
 
-            <div className="bg-white mt-6 rounded-lg p-4">
+            <div className="bg-white mt-6 rounded-lg p-4 shadow-sm">
               <h2 className="font-semibold">{subtitle}</h2>
               <p className="text-gray-500 text-sm mt-3">
                 {data.tips.description}
@@ -52,7 +52,7 @@ const Movement = () => {
                 return (
                   <>
                     <div className="flex">
-                      <Icon className="mt-3 text-[#0D9C4D]"/>
+                      <Icon className="mt-3 text-[#0D9C4D]" />
                       <ul className="text-gray-500 mt-3">{lists.text}</ul>
                     </div>
                   </>
@@ -62,7 +62,25 @@ const Movement = () => {
           </div>
 
           {/* right_side */}
-          <div className="bg-blue-600 md:w-1/2"></div>
+          <div className="md:w-1/2 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {data.card.map((item) => (
+                <div className="shadow-sm hover:shadow-2xl cursor-pointer transition duration-300 ease-in-out rounded-lg ">
+                  <img
+                    src={item.image}
+                    className="h-48 w-full object-cover rounded-t-lg"
+                    alt=""
+                  />
+                  <div className="  p-3">
+                    <h2 className="font-semibold">{item.subtitle}</h2>
+                    <p className="text-gray-500 text-sm line-clamp-3 mt-2">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>
