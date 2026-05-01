@@ -582,80 +582,78 @@ export const sleep = [
   },
 ];
 
-export const movement = [
-  {
-    title: "Beyond Exercise",
-    description:
-      "When movement becomes something you look forward to rather than a chore, you're more likely to stay consistent. The best physical activity is the one you'll actually do regularly.",
+export const movement = {
+  title: "Beyond Exercise",
+  description:
+    "When movement becomes something you look forward to rather than a chore, you're more likely to stay consistent. The best physical activity is the one you'll actually do regularly.",
 
-    main: [
-      {
-        subtitle: "Benefits of Regular Movement",
-        list: [
-          {
-            text: "Improves mood by releasing endorphins",
-          },
-          {
-            text: "Reduces stress and anxiety",
-          },
-          {
-            text: "Enhances cognitive function and creativity",
-          },
-          {
-            text: "Boosts energy and reduces fatigue",
-          },
-          {
-            text: "Strengthens immune function",
-          },
-        ],
-      },
-    ],
+  main: [
+    {
+      subtitle: "Benefits of Regular Movement",
+      list: [
+        {
+          text: "Improves mood by releasing endorphins",
+        },
+        {
+          text: "Reduces stress and anxiety",
+        },
+        {
+          text: "Enhances cognitive function and creativity",
+        },
+        {
+          text: "Boosts energy and reduces fatigue",
+        },
+        {
+          text: "Strengthens immune function",
+        },
+      ],
+    },
+  ],
 
-    tips: [
-      {
-        subtitle: "Finding Your Movement Style",
-        description:
-          "Consider these questions to discover activities you'll genuinely enjoy:",
+  tips: [
+    {
+      subtitle: "Finding Your Movement Style",
+      description:
+        "Consider these questions to discover activities you'll genuinely enjoy:",
 
-        lists: [
-          {
-            text: "Do you prefer solo activities or social settings?",
-          },
-          {
-            text: "Do you enjoy being outdoors or indoors?",
-          },
-          {
-            text: "Do you like structure or flexibility?",
-          },
-        ],
-      },
-    ],
+      lists: [
+        {
+          text: "Do you prefer solo activities or social settings?",
+        },
+        {
+          text: "Do you enjoy being outdoors or indoors?",
+        },
+        {
+          text: "Do you like structure or flexibility?",
+        },
+      ],
+    },
+  ],
 
-    card: [
-      {
-        image: "",
-        subtitle: "Yoga & Stretching",
-        description:
-          "Improves flexibility, balance, and mind-body awareness. Great for stress reduction and recovery.",
-      },
-      {
-        image: "",
-        subtitle: "Walking & Hiking",
-        description:
-          "Accessible, low-impact activity that combines movement with nature for mental clarity.",
-      },
-      {
-        image: "",
-        subtitle: "Dance & Movement",
-        description:
-          "Joyful expression through movement that improves coordination, mood, and cardiovascular health.",
-      },
-      {
-        image: "",
-        subtitle: "Strength Training",
-        description:
-          "Builds muscle, boosts metabolism, and improves functional fitness for daily activities.",
-      },
-    ],
-  },
-];
+  card: [
+    {
+      image: "",
+      subtitle: "Yoga & Stretching",
+      description:
+        "Improves flexibility, balance, and mind-body awareness. Great for stress reduction and recovery.",
+    },
+    {
+      image: "",
+      subtitle: "Walking & Hiking",
+      description:
+        "Accessible, low-impact activity that combines movement with nature for mental clarity.",
+    },
+    {
+      image: "",
+      subtitle: "Dance & Movement",
+      description:
+        "Joyful expression through movement that improves coordination, mood, and cardiovascular health.",
+    },
+    {
+      image: "",
+      subtitle: "Strength Training",
+      description:
+        "Builds muscle, boosts metabolism, and improves functional fitness for daily activities.",
+    },
+  ],
+};
