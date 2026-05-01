@@ -587,7 +587,7 @@ export const movement = {
   description:
     "When movement becomes something you look forward to rather than a chore, you're more likely to stay consistent. The best physical activity is the one you'll actually do regularly.",
 
-  main: [
+  main: 
     {
       subtitle: "Benefits of Regular Movement",
       list: [
@@ -608,7 +608,7 @@ export const movement = {
         },
       ],
     },
-  ],
+  
 
   tips: [
     {
