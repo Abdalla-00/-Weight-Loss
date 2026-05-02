@@ -13,10 +13,10 @@ const Power = () => {
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-9   ">
-        {power.map((item) => {
+        {power.map((item, index) => {
           const Icon = item.Icon;
           return (
-            <div className="p-5 bg-gray-50 rounded-lg  ">
+            <div key={index} className="p-5 bg-gray-50 rounded-lg  ">
               <div className="flex justify-center items-center  bg-[#0D9C4D]/20 h-10 w-10 rounded-full">
                 <Icon color="#22C55E" size={22} className=" " />
               </div>
