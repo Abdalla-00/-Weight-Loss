@@ -18,7 +18,7 @@ import {
   Bell,
   BookUp,
   Headphones,
-  Zap
+  Zap,
 } from "lucide-react";
 
 import support1 from "../assets/image/Support/Support_1.png";
@@ -735,3 +735,24 @@ export const practice = [
     ],
   },
 ];
+
+export const life = {
+  title: "Mindfulness in Daily Life",
+  description:
+    "Formal meditation is valuable, but mindfulness can be practiced throughout your day in simple ways:",
+  button: "Try Guided Meditation",
+  list: [
+    {
+      text: "Eat one meal without distractions, noticing flavors and textures",
+    },
+    {
+      text: "Take three mindful breaths before checking your phone",
+    },
+    {
+      text: "Feel the sensation of water during handwashing or showering",
+    },
+    {
+      text: "Notice the feeling of your feet touching the ground while walking",
+    },
+  ],
+};
