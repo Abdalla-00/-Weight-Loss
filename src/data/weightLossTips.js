@@ -658,3 +658,78 @@ export const movement = {
     },
   ],
 };
+
+export const practice = [
+  {
+    Icon: "",
+    title: "Mindful Breathing",
+    description:
+      "The simplest form of meditation. Focus your attention on your breath—the inhale and exhale—without trying to control it.",
+    subTitle: "Practice: Box Breathing",
+    list: [
+      {
+        text: "Inhale for 4 counts",
+      },
+      {
+        text: "Hold for 4 counts",
+      },
+      {
+        text: "Exhale for 4 counts",
+      },
+      {
+        text: "Hold for 4 counts",
+      },
+      {
+        text: "Repeat for 3–5 minutes",
+      },
+    ],
+  },
+  {
+    Icon: "",
+    title: "Body Scan",
+    description:
+      "Systematically bring attention to different parts of your body, noticing sensations without judgment. Helps release tension and increase body awareness.",
+    subTitle: "Practice: Mini Body Scan",
+    list: [
+      {
+        text: "Start at your feet and move upward",
+      },
+      {
+        text: "Notice sensations in each body part",
+      },
+      {
+        text: "Release tension as you scan",
+      },
+      {
+        text: "Continue to your head",
+      },
+      {
+        text: "End with awareness of your whole body",
+      },
+    ],
+  },
+  {
+    Icon: "",
+    title: "Mindful Listening",
+    description:
+      "Fully focus on sounds around you or in music without labeling or judging. Enhances present-moment awareness and reduces mental chatter.",
+    subTitle: "Practice: Sound Awareness",
+    list: [
+      {
+        text: "Close your eyes",
+      },
+      {
+        text: "Notice the most prominent sound",
+      },
+      {
+        text: "Expand awareness to subtle sounds",
+      },
+      {
+        text: "Notice the quality of each sound",
+      },
+      {
+        text: "Return to sounds when mind wanders",
+      },
+    ],
+  },
+];
