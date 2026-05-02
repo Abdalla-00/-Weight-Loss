@@ -17,7 +17,7 @@ const Stress = () => {
         <div className="md:w-1/2 ">
           {stres[0].card.map((item, index) => {
             return (
-              <div className="shadow-sm rounded-lg">
+              <div key={index} className="shadow-sm rounded-lg">
                 <img
                   src={item.image}
                   className="h-48 w-full object-cover rounded-lg"
@@ -39,7 +39,7 @@ const Stress = () => {
           {stres[1].card2.map((items, index) => {
             const Icon = items.Icon;
             return (
-              <div className="mt-4 shadow-sm p-4 rounded-lg">
+              <div key={index} className="mt-4 shadow-sm p-4 rounded-lg">
                 <div className="bg-[#0D9C4D]/20 h-8 w-8 flex justify-center items-center rounded-full">
                   <Icon size={18} className="text-[#0D9C4D]" />
                 </div>
