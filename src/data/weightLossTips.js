@@ -17,6 +17,8 @@ import {
   FileText,
   Bell,
   BookUp,
+  Headphones,
+  Zap
 } from "lucide-react";
 
 import support1 from "../assets/image/Support/Support_1.png";
@@ -661,7 +663,7 @@ export const movement = {
 
 export const practice = [
   {
-    Icon: "",
+    Icon: Bell,
     title: "Mindful Breathing",
     description:
       "The simplest form of meditation. Focus your attention on your breath—the inhale and exhale—without trying to control it.",
@@ -685,7 +687,7 @@ export const practice = [
     ],
   },
   {
-    Icon: "",
+    Icon: Zap,
     title: "Body Scan",
     description:
       "Systematically bring attention to different parts of your body, noticing sensations without judgment. Helps release tension and increase body awareness.",
@@ -709,7 +711,7 @@ export const practice = [
     ],
   },
   {
-    Icon: "",
+    Icon: Headphones,
     title: "Mindful Listening",
     description:
       "Fully focus on sounds around you or in music without labeling or judging. Enhances present-moment awareness and reduces mental chatter.",
