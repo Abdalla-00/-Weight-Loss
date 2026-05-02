@@ -34,7 +34,7 @@ const Sleep = () => {
             {data.list.map((item, index) => {
               const Icon = Icons.dot;
               return (
-                <div className=" mt-2 text-gray-500 flex ">
+                <div key={index} className=" mt-2 text-gray-500 flex ">
                   <Icon className="text-[#0D9C4D]" />
                   <p>{item.text}</p>
                 </div>
@@ -48,7 +48,7 @@ const Sleep = () => {
           <div className="mt-5 md:mt-3">
             {deta.slice(1, 5).map((tip, index) => {
               return (
-                <>
+                <div key={index}>
                   <div className="flex gap-3 mt-2">
                     <div className="bg-[#0D9C4D]/20 h-7 w-7 rounded-full flex justify-center items-center">
                       <span className="text-[#0D9C4D]">{index + 1}</span>
@@ -58,7 +58,7 @@ const Sleep = () => {
                   <p className="pl-9 text-gray-500 text-sm">
                     {tip.description}
                   </p>
-                </>
+                </div>
               );
             })}
           </div>
