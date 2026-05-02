@@ -30,9 +30,9 @@ const Movement = () => {
             {/* map list one section */}
             <div className="bg-white p-4 rounded-lg mt-6 shadow-sm">
               <h2 className="font-semibold">{subtitle}</h2>
-              {movement.main.list.map((li) => {
+              {movement.main.list.map((li, index) => {
                 return (
-                  <div className="flex">
+                  <div key={index} className="flex">
                     <Icon className="mt-3 text-[#0D9C4D]" />
                     <ul className="mt-3 text-gray-500">{li.text}</ul>
                   </div>
@@ -48,14 +48,12 @@ const Movement = () => {
                 {data.tips.description}
               </p>
 
-              {movement.tips.lists.map((lists) => {
+              {movement.tips.lists.map((lists, index) => {
                 return (
-                  <>
-                    <div className="flex">
-                      <Icon className="mt-3 text-[#0D9C4D]" />
-                      <ul className="text-gray-500 mt-3">{lists.text}</ul>
-                    </div>
-                  </>
+                  <div key={index} className="flex">
+                    <Icon className="mt-3 text-[#0D9C4D]" />
+                    <ul className="text-gray-500 mt-3">{lists.text}</ul>
+                  </div>
                 );
               })}
             </div>
@@ -64,8 +62,11 @@ const Movement = () => {
           {/* right_side */}
           <div className="md:w-1/2 ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              {data.card.map((item) => (
-                <div className="shadow-sm hover:shadow-2xl cursor-pointer transition duration-300 ease-in-out rounded-lg ">
+              {data.card.map((item, index) => (
+                <div
+                  key={index}
+                  className="shadow-sm hover:shadow-2xl cursor-pointer transition duration-300 ease-in-out rounded-lg "
+                >
                   <img
                     src={item.image}
                     className="h-48 w-full object-cover rounded-t-lg"
