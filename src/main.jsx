@@ -9,6 +9,7 @@ import Recipes from "./Pages/Recipes.jsx";
 import Lifestyle from "./Pages/Lifestyle.jsx";
 import SignIn from "./Pages/SignIn.jsx";
 import Home from "./Pages/Home.jsx";
+import Register from "./Pages/register.jsx";
 
 const routerProvider = createBrowserRouter([
   {
@@ -35,18 +36,21 @@ const routerProvider = createBrowserRouter([
         path: "SignIn",
         element: <SignIn />,
       },
+      {
+        path: "register",
+        element: <Register />,
+      },
 
       {
         path: "/",
-        element: <Home/>
-      }
+        element: <Home />,
+      },
     ],
   },
 ]);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-  
-    <RouterProvider router={routerProvider}/>
-  </StrictMode>
+    <RouterProvider router={routerProvider} />
+  </StrictMode>,
 );
