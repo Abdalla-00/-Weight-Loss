@@ -3,6 +3,7 @@ import login from "../assets/image/Form/Login.jpg";
 import logo from "../assets/image/Logo/logo.png";
 import { Link } from "react-router-dom";
 import { FaGoogle, FaFacebook, FaXTwitter } from "react-icons/fa6";
+import { Lock, Mail } from "lucide-react";
 
 const Signin = () => {
   return (
@@ -25,16 +26,18 @@ const Signin = () => {
 
           {/* form */}
           <form className="mt-6 w-full">
-            <div className="mt-4">
+            <div className="mt-4 relative">
+              <Mail className="absolute top-1/2 -translate-y-1/2 pl-3 text-gray-500" size={28}/>
               <input
-                className="border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
+                className="border pl-8 border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
                 type="Email"
                 placeholder="Email address"
               />
             </div>
-            <div className="mt-4">
+            <div className="mt-4 relative">
+              <Lock className="absolute top-1/2 -translate-y-1/2 pl-3 text-gray-500" size={28}/>
               <input
-                className="border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
+                className="border pl-8 border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
                 type="Password"
                 placeholder="Password"
                 id="password"
