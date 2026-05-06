@@ -1,6 +1,15 @@
 import React from "react";
 import logo from "../assets/image/Logo/logo.png";
 import signup from "../assets/image/Form/Register.jpg";
+import {
+  ArrowRight,
+  CheckCircle2,
+  Lock,
+  Mail,
+  ShieldCheck,
+  Sparkles,
+  User,
+} from "lucide-react";
 
 const SignUp = () => {
   return (
@@ -23,40 +32,73 @@ const SignUp = () => {
 
           <form className="mt-6">
             <div className="flex gap-4">
-              <input
-                className=" border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0 "
-                type="text"
-                placeholder="First name"
-                name=""
-                id="First name"
-              />
-              <input
-                className=" border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
-                type="text"
-                placeholder="Last name"
-                name=""
-                id="Last name"
-              />
+              {/* first name */}
+              <div className="w-full relative">
+                <User
+                  className="absolute -translate-y-1/2 top-1/2 pl-3 text-gray-500"
+                  size={28}
+                />
+                <input
+                  className=" border border-gray-300 py-2 px-2 pl-8 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0 "
+                  type="text"
+                  placeholder="First name"
+                  name=""
+                  id="First name"
+                />
+              </div>
+
+              {/* last name */}
+              <div className="w-full relative">
+                <User
+                  className="absolute top-1/2 -translate-y-1/2 text-gray-500 pl-3"
+                  size={28}
+                />
+                <input
+                  className=" pl-8 border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
+                  type="text"
+                  placeholder="Last name"
+                  name=""
+                  id="Last name"
+                />
+              </div>
             </div>
-            <div className="mt-4">
+
+            {/* email */}
+            <div className="mt-4 relative">
+              <Mail
+                className="absolute top-1/2 -translate-y-1/2 text-gray-500 pl-3"
+                size={28}
+              />
               <input
-                className="border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
-                type="Email"
+                className=" pl-8 border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
+                type="email"
                 placeholder="Email address"
               />
             </div>
-            <div className="mt-4">
+
+            {/* password */}
+            <div className="mt-4 relative">
+              <Lock
+                className="absolute top-1/2 -translate-y-1/2 text-gray-500 pl-3"
+                size={28}
+              />
               <input
-                className="border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
-                type="Password"
+                className="pl-8 border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
+                type="password"
                 placeholder="Password"
                 id="password"
               />
             </div>
-            <div className="mt-4">
+
+            {/* confirm passowd */}
+            <div className="mt-4 relative">
+              <ShieldCheck
+                className="absolute top-1/2 -translate-y-1/2 text-gray-500 pl-3"
+                size={28}
+              />
               <input
-                className="border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
-                type="Password"
+                className="pl-8 border border-gray-300 py-2 px-2 rounded-md shadow-sm w-full block hover:outline-[#FAA432] hover:outline-1 outline-0"
+                type="password"
                 placeholder="Confirm password"
                 id="Confirm password"
               />
