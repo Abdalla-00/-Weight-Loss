@@ -8,7 +8,7 @@ import { Lock, Mail } from "lucide-react";
 const Signin = () => {
   return (
     <div className="flex justify-center items-center md:min-h-screen mt-10 bg-gray-100 ">
-      <div className="flex gap-5 max-w-6xl w-full  rounded-lg  ">
+      <div className="flex gap-5 max-w-6xl w-full  rounded-lg  overflow-x-hidden">
         {/* left_side_image */}
         <div className="hidden md:block  md:w-1/2">
           <img className="w-full h-full object-cover" src={login} alt="" />
