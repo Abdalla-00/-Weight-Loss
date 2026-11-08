@@ -9,7 +9,7 @@ import Recipes from "./Pages/Recipes.jsx";
 import Lifestyle from "./Pages/Lifestyle.jsx";
 import SignIn from "./Pages/SignIn.jsx";
 import Home from "./Pages/Home.jsx";
-import Register from "./Pages/register.jsx";
+import Register from "./Pages/Register.jsx";
 
 const routerProvider = createBrowserRouter([
   {
